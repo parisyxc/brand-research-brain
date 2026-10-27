@@ -20,9 +20,13 @@
 
 ## 三个案例：输入什么 → Brain 研究什么 → 输出什么
 
+**[打开在线案例总目录 →](https://parisyxc.github.io/brand-research-brain/)** 三份完整中文 HTML 支持连续阅读、知识卡模式和浏览器打印。
+
 从一个网站或一篇文章，加上你想弄清的问题开始。下面是作者自己 Brain 中三次研究的简要还原，帮助你理解实际使用过程；它们是学习示例，完整的个人研究笔记不随插件打包。
 
 ### 1. CharCharms：从水杯配件，学习自己的演唱会配件想法
+
+**[阅读 CharCharms 完整 HTML 研究 →](https://parisyxc.github.io/brand-research-brain/charcharms.html)**
 
 **输入什么：**[CharCharms 官网](https://charcharms.com/)，加上我正在考虑的方向：演唱会上的自我表达配件，例如可穿戴亮片、可替换装饰。我想学的是，它怎样给一个熟悉的物品增加新用途。**演唱会方向来自我的 brief，CharCharms 本身做的是水杯配件。**
 
@@ -32,6 +36,8 @@
 
 ### 2. Doodle2Life：弄懂定制产品怎样成为一次购买体验
 
+**[阅读 Doodle2Life 完整 HTML 研究 →](https://parisyxc.github.io/brand-research-brain/doodle2life.html)**
+
 **输入什么：**一个[把孩子画作变成 3D 摆件的网站](https://doodle2life.com/custom-3d-figurine-from-kids-drawing/)。我想弄懂它的产品和购买过程，学习哪些做法可以用于可定制的实物产品。
 
 **Brain 研究什么：**从家长上传画作，到商家建模、打印，再到一家人给白色摆件上色。讲清商家完成哪些制作、买家还能参与什么，以及“画作变成实物”的过程怎样成为内容。
@@ -39,6 +45,8 @@
 **输出什么：**三个具体做法、关联的品类与产品页学习，以及一份 HTML。同时留下一个小测试提案：用同一张画做“亲子一起上色”和“完成品直接送礼”两张概念卡，找有真实购买场景的人比较，听他们为什么选。它是下一步研究问题，还不是选品结论。
 
 ### 3. Kaleidos：把供应链能力变成可识别的风格
+
+**[阅读 Kaleidos 完整 HTML 研究 →](https://parisyxc.github.io/brand-research-brain/kaleidos.html)**
 
 **输入什么：**一篇[Kaleidos 品牌报道](https://pangjing.cn/6114249/)，再补充[官网产品页](https://kaleidos.com/products/stranger)。我想学习的是，中国供应链能力怎样服务一个面向海外、审美鲜明的品牌。
 

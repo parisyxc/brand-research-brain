@@ -18,9 +18,13 @@ A website visit may contribute several immutable raw source records, but produce
 
 ## Three examples: input → research → output
 
+**[Open the live case collection →](https://parisyxc.github.io/brand-research-brain/)** The three complete HTML reports are in Chinese and support continuous reading, card mode and browser printing.
+
 Start with a website or article and a question you want to answer. These briefs summarize three studies from the author's own Brain; they show what the workflow produced, rather than ready-made business recommendations. Full personal research notes are not bundled with the plugin.
 
 ### 1. CharCharms: learn from water-bottle accessories for a concert idea
+
+**[Read the complete CharCharms HTML report →](https://parisyxc.github.io/brand-research-brain/charcharms.html)**
 
 **Input:** the [CharCharms website](https://charcharms.com/) and my early idea for concert self-expression accessories, such as wearable sparkle or interchangeable decorations. I wanted to understand how the brand gives a familiar object a new role. **The concert direction came from my brief**, rather than CharCharms' product category.
 
@@ -30,6 +34,8 @@ Start with a website or article and a question you want to answer. These briefs 
 
 ### 2. Doodle2Life: understand a custom-product buying experience
 
+**[Read the complete Doodle2Life HTML report →](https://parisyxc.github.io/brand-research-brain/doodle2life.html)**
+
 **Input:** a [website that turns children's drawings into 3D keepsakes](https://doodle2life.com/custom-3d-figurine-from-kids-drawing/). My focus was how the offer works and what I could learn for a customizable physical product.
 
 **Brain researches:** the journey from a parent uploading a drawing to professional modeling and printing, followed by a white figure the family can paint. It explains what the seller completes, what the buyer gets to do, and how the drawing-to-object transformation can become content.
@@ -37,6 +43,8 @@ Start with a website or article and a question you want to answer. These briefs 
 **Output:** three concrete practices, linked category and product-page learning, and an HTML report. The case also generated a small test proposal: use the same drawing to compare two concept offers, “finish it together” and “ready to give as a gift,” then ask people with a real buying occasion why they prefer one. This is a proposed test, not a validated product choice.
 
 ### 3. Kaleidos: turn supply capabilities into a recognizable style
+
+**[Read the complete Kaleidos HTML report →](https://parisyxc.github.io/brand-research-brain/kaleidos.html)**
 
 **Input:** a [Kaleidos brand article](https://pangjing.cn/6114249/), supplemented by its [product website](https://kaleidos.com/products/stranger). I wanted to understand how a brand uses Chinese supply capabilities to serve a distinctive aesthetic for overseas customers.
 
