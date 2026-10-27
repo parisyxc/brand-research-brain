@@ -4,7 +4,7 @@
 
 贴一个网站 → 读懂这个生意 → 学到三个具体做法 → 写进 Obsidian，并生成可阅读、截图分享的 HTML → 服务之后的选品、建站和增长。
 
-[English](README.md) · [LiberNovo 学习示例](examples/learning/brain/wiki/brands/libernovo.md) · [新旧对照](docs/libernovo-comparison.md) · [验证记录](docs/validation.md)
+[English](README.md)
 
 ## 两个核心 skills 与一个按需研究入口
 

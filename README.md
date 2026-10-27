@@ -4,7 +4,7 @@ Learn from interesting websites and build your Shopify second brain.
 
 **Paste a site → understand the business → learn three concrete practices → keep the learning in Obsidian → apply it to your own Shopify journey.**
 
-[中文](README.zh-CN.md) · [LiberNovo example](examples/learning/brain/wiki/brands/libernovo.md) · [Before/after](docs/libernovo-comparison.md) · [Validation](docs/validation.md)
+[中文](README.zh-CN.md)
 
 ## Two core skills and optional growth research
 
