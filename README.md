@@ -1,5 +1,53 @@
 # Brand Research Brain
 
+Learn from interesting websites and build your Shopify second brain.
+
+**Paste a site → understand the business → learn three concrete practices → keep the learning in Obsidian → apply it to your own Shopify journey.**
+
+[中文](README.zh-CN.md) · [LiberNovo example](examples/learning/brain/wiki/brands/libernovo.md) · [Before/after](docs/libernovo-comparison.md) · [Validation](docs/validation.md)
+
+## Two core skills and optional growth research
+
+- `brain-init`: create a personal Markdown learning Brain with a goal, stage and interests.
+- `brand-intake`: study a website, article or clip, explain the business, and save three concrete practices with one small next action.
+- `growth-research`: on request, investigate social media, creators and SEO beyond the storefront; save one concise growth note.
+
+Consider product selection/user insight, product/brand, storefront/conversion, content, acquisition/growth and SEO. Expand what the evidence supports. Sparse sources can yield fewer practices. No default consulting roadmap, scoring or visible processing checklists.
+
+A website visit may contribute several immutable raw source records, but produces one case synthesis and one short log entry. Every intake reads and checks categories, ideas, Shopify and growth. Merge substantive additions, retain relevant unchanged notes and skip unsupported areas. Reconciliation is required; four new pages are not. Evidence-specific reviews stay in the background registry, never in readable cases/logs or chat. Use readable source names and linked methods to answer future questions.
+
+## Three examples: input → research → output
+
+Start with a website or article and a question you want to answer. These briefs summarize three studies from the author's own Brain; they show what the workflow produced, rather than ready-made business recommendations. Full personal research notes are not bundled with the plugin.
+
+### 1. CharCharms: learn from water-bottle accessories for a concert idea
+
+**Input:** the [CharCharms website](https://charcharms.com/) and my early idea for concert self-expression accessories, such as wearable sparkle or interchangeable decorations. I wanted to understand how the brand gives a familiar object a new role. **The concert direction came from my brief**, rather than CharCharms' product category.
+
+**Brain researches:** what the brand actually sells—water-bottle charms, straw toppers and related accessories—and how it combines decoration, small utilities and parts people can choose or change. A later, separate growth study examined videos in which participants choose accessories before the finished bottle is revealed.
+
+**Output:** a readable case and linked category, growth and idea notes, brought together in a Chinese HTML report. One hypothesis for my own project was to compare bag straps, collars and makeup as places for concert self-expression before choosing a fastening method. A content idea was to let people make a few choices, then show the result. Both remain ideas to test.
+
+### 2. Doodle2Life: understand a custom-product buying experience
+
+**Input:** a [website that turns children's drawings into 3D keepsakes](https://doodle2life.com/custom-3d-figurine-from-kids-drawing/). My focus was how the offer works and what I could learn for a customizable physical product.
+
+**Brain researches:** the journey from a parent uploading a drawing to professional modeling and printing, followed by a white figure the family can paint. It explains what the seller completes, what the buyer gets to do, and how the drawing-to-object transformation can become content.
+
+**Output:** three concrete practices, linked category and product-page learning, and an HTML report. The case also generated a small test proposal: use the same drawing to compare two concept offers, “finish it together” and “ready to give as a gift,” then ask people with a real buying occasion why they prefer one. This is a proposed test, not a validated product choice.
+
+### 3. Kaleidos: turn supply capabilities into a recognizable style
+
+**Input:** a [Kaleidos brand article](https://pangjing.cn/6114249/), supplemented by its [product website](https://kaleidos.com/products/stranger). I wanted to understand how a brand uses Chinese supply capabilities to serve a distinctive aesthetic for overseas customers.
+
+**Brain researches:** the actual category—expressive color cosmetics—and specific product choices: colors, finishes, a consistent visual style, and replaceable inner products with different outer cases. The study connects aesthetic choices to visible product details, while keeping the article's account separate from official product observations.
+
+**Output:** a brand case, category learning and an idea note, plus an HTML report assembled from the saved research. The practical takeaway was to turn a style preference into questions about color, material, finish and structure that a supplier can answer. Supplier feasibility and customers' willingness to buy still need separate evidence.
+
+Across all three, the pattern is **your material + your question → a study of the brand → concrete practices, linked learning and a next question to test**. Markdown stays in your local Brain; HTML makes the learning easier to read and share. Relevant knowledge pages are updated when there is substance to add, rather than creating every type of page for every case.
+
+## What v0.6.0 adds
+
 v0.6.0 adds optional full growth chapters below the overview: evidenced stages, media examples, creator/retail/SEO paths, metric interpretation and concrete lessons. Content is visible inside HTML, with internal navigation and separate topic panels in card mode. A completed study is no longer forced into three bullets. Ordinary intake stays concise.
 
 Presentation-only updates reuse saved research without provider calls, credential access or research events. This does not bundle a Monid integration. Growth-only protection for the rest of the case remains active.
@@ -18,22 +66,6 @@ The original Wise-inspired layout uses lime, deep green, bold typography and gen
 
 Markdown remains the knowledge source. Refreshing a digest preserves useful existing learning and writes no Markdown, raw captures or research events. Current-note hashes and output-edit protection are handled by the standard-library renderer; provenance stays in `.brb/share/`. See the [editorial and save contract](plugins/brand-research-brain/skills/brand-intake/references/share-card.md).
 
-Learn from interesting websites and build your Shopify second brain.
-
-**Paste a site → understand the business → learn three concrete practices → keep the learning in Obsidian → apply it to your own Shopify journey.**
-
-[中文](README.zh-CN.md) · [LiberNovo example](examples/learning/brain/wiki/brands/libernovo.md) · [Before/after](docs/libernovo-comparison.md) · [Validation](docs/validation.md)
-
-## Two core skills and optional growth research
-
-- `brain-init`: create a personal Markdown learning Brain with a goal, stage and interests.
-- `brand-intake`: study a website, article or clip, explain the business, and save three concrete practices with one small next action.
-- `growth-research`: on request, investigate social media, creators and SEO beyond the storefront; save one concise growth note.
-
-Consider product selection/user insight, product/brand, storefront/conversion, content, acquisition/growth and SEO. Expand what the evidence supports. Sparse sources can yield fewer practices. No default consulting roadmap, scoring or visible processing checklists.
-
-A website visit may contribute several immutable raw source records, but produces one case synthesis and one short log entry. Every intake reads and checks categories, ideas, Shopify and growth. Merge substantive additions, retain relevant unchanged notes and skip unsupported areas. Reconciliation is required; four new pages are not. Evidence-specific reviews stay in the background registry, never in readable cases/logs or chat. Use readable source names and linked methods to answer future questions.
-
 ## Install and use
 
 Requires a local file-capable agent and Python 3.9+. Website research also needs host-provided browser/retrieval tools. No API key, Shopify account, Obsidian service or server is required by the plugin.
@@ -45,7 +77,7 @@ codex plugin marketplace add .
 codex plugin add brand-research-brain@brand-research-brain
 ```
 
-Follow the host's refresh/restart guidance and check the installed version. For distribution, use the actual GitHub repository URL once published; no account name or remote is invented here. See [release notes](docs/releasing.md).
+Run these commands from a checkout of [this GitHub repository](https://github.com/parisyxc/brand-research-brain). Follow the host's refresh/restart guidance and check the installed version. See [release notes](docs/releasing.md) for packaging details.
 
 For **Claude Code**, this source now includes `.claude-plugin/marketplace.json` and a matching plugin manifest. From the repository root:
 
