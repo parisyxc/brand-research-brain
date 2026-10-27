@@ -1,0 +1,71 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "kaleidos": {
+      "name": "Kaleidos",
+      "aliases": [],
+      "page": "wiki/brands/kaleidos.md",
+      "pages": [
+        "wiki/brands/kaleidos.md",
+        "wiki/growth/creator-product-explanation.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-f1c1d66a0c909b8306be": {
+      "brand": "kaleidos",
+      "path": "raw/sources/kaleidos/s-f1c1d66a0c909b8306be.md",
+      "identity": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+      "source": {
+        "type": "clip",
+        "url": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+        "title": "Kaleidos 原始片段（正文缺失）",
+        "publisher": "PangJing Media（文件元数据标注，未核实）",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "文件重复元数据、标题与空白模板；并无完整文章。",
+          "仅存一句关于产品内容化及创作者解释产品的判断，作者不明。",
+          "标题中的日收百万未见期间、币种、口径或支持正文，不能作为收入事实。",
+          "按要求没有联网补充。"
+        ],
+        "capture": "文件两次出现相同标题和模板区块。Original Content 基本为空，只剩一条关于产品成为内容、创作者承担解释且方法如今普及的判断，另外一次出现在 Why I Saved This 下。句子可能是原文或个人笔记，无法归属。完整经营数据、产品机制与具体渠道案例均缺失。",
+        "claims": []
+      },
+      "capture_sha256": "26041335372a7d936d2d450e6a36a7b6384fbf5642e969b05d820c8e02799b06"
+    }
+  },
+  "events": [
+    {
+      "id": "e-3e1f78c192ac671a8c7c",
+      "source_id": "s-f1c1d66a0c909b8306be",
+      "date": "2026-10-24",
+      "type": "intake",
+      "decision": "Study",
+      "dimension_reviews": {
+        "category": {
+          "action": "skip",
+          "reason": "片段没有具体用户任务、产品约束或品类权衡，尚不足以独立成文。",
+          "paths": []
+        },
+        "growth": {
+          "action": "write",
+          "reason": "唯一摘句提供可检查的解释机制线索，但作者与执行证据未知，研究页保留这些边界。",
+          "paths": [
+            "wiki/growth/creator-product-explanation.md"
+          ]
+        },
+        "ideas": {
+          "action": "skip",
+          "reason": "没有产品结构或具体可迁移机会，另建想法页只会重复增长页的待证机制。",
+          "paths": []
+        }
+      },
+      "pages": {
+        "wiki/brands/kaleidos.md": "e6a9e178bd26c4ab2439858fd867e966741e775f095f322e17e149cdb372f356",
+        "wiki/growth/creator-product-explanation.md": "bac7d6afea3ef7e7959f6522e7f17402f40123d9d6cfad1f2f8ebd18bab9795f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ruggable-article",
+    "language": "en",
+    "steps": [{"payload": "ruggable.json", "expected_status": "ingested"}],
+    "expected_counts": [1, 1, 1]
+  },
+  {
+    "id": "benshot-website",
+    "language": "zh-CN",
+    "steps": [
+      {"payload": "benshot.json", "expected_status": "ingested"},
+      {"payload": "benshot-revision.json", "revise": true, "rendered_source_link": true, "expected_status": "revised"}
+    ],
+    "expected_counts": [1, 1, 2]
+  },
+  {
+    "id": "kaleidos-partial-clip",
+    "language": "zh-CN",
+    "steps": [{"payload": "kaleidos.json", "expected_status": "ingested"}],
+    "expected_counts": [1, 1, 1]
+  }
+]

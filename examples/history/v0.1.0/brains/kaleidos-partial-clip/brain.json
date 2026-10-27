@@ -1,0 +1,10 @@
+{
+  "schema": "brand-research-brain/v1",
+  "name": "Example Research Brain",
+  "language": "zh-CN",
+  "research_goal": "Learn from brands and test product opportunities",
+  "markets": [],
+  "interests": [],
+  "constraints": [],
+  "created_on": "2026-10-23"
+}

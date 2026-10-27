@@ -1,0 +1,10 @@
+{
+  "name": "brand-research-brain",
+  "interface": {"displayName": "Brand Research Brain by Paris Young"},
+  "plugins": [{
+    "name": "brand-research-brain",
+    "source": {"source": "local", "path": "./plugins/brand-research-brain"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

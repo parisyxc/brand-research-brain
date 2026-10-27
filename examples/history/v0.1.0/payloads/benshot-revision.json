@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "id": "benshot",
+    "name": "BenShot",
+    "aliases": []
+  },
+  "source": {
+    "type": "official_site",
+    "url": "https://benshot.com/",
+    "title": "BenShot | Original Bulletproof Glasses — official homepage",
+    "publisher": "BenShot",
+    "published_at": null,
+    "observed_at": "2026-10-23",
+    "access": "complete",
+    "limitations": [
+      "仅阅读官网首页的检索文本；未访问商品、About 或政策子页。",
+      "官方陈述未独立核验；精选评价不代表用户总体。"
+    ],
+    "capture": "首页展示按爱好和送礼对象区分的杯具系列。品牌自述自 2015 年起由父子团队在 Wisconsin 手工制作。页脚说明杯具并不防弹或防碎，且只能手洗。首页呈现客户评价，但没有代表性抽样信息。证据位置：Proudly Handmade、Shop by Collection、Let customers speak for us、页脚免责声明。",
+    "claims": [
+      {
+        "text": "品牌自述自 2015 年起在 Wisconsin 手工制作杯具，由父子团队经营。",
+        "kind": "official_claim",
+        "locator": "Homepage / Proudly Handmade; lines 19–21"
+      },
+      {
+        "text": "首页按爱好和送礼对象展示系列入口。",
+        "kind": "observed_feature",
+        "locator": "Homepage / Shop by Collection; lines 24–63"
+      },
+      {
+        "text": "页脚明确说明杯具并非防弹或防碎，且只能手洗。",
+        "kind": "official_claim",
+        "locator": "Homepage / footer disclaimer; line 200"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "wiki/brands/benshot.md",
+      "content": "# BenShot\n\n## 来源范围\n本次只阅读[官方首页](https://benshot.com/)的检索文本，访问日期为 2026-10-23，时区 Asia/Seoul。没有访问商品或政策子页，也没有独立产品测试。{{source}} — Homepage。\n\n## 证据\n- **官方陈述：**品牌以 Wisconsin 手工制作和父子团队故事介绍自己。{{source}} — Proudly Handmade，19–21 行。\n- **观察到的功能：**首页按爱好与礼物对象组织系列入口。{{source}} — Shop by Collection，24–63 行。\n- **官方陈述：**页脚否认真实防弹、防碎能力，并要求手洗。不能把名称里的 Bulletproof 当成安全性能。{{source}} — 页脚免责声明，200 行。\n\n## 用户任务、产品机制与差异化\n**推断：**这可能帮助送礼者表达“我了解你的兴趣”。兴趣符号与日常杯具结合，可能比通用礼品更容易传递关系意义。首页的系列分类支持这一研究方向，但不能证明用户痛点强度、购买动机或溢价意愿。{{source}} — Shop by Collection。\n\n**假设：**产品的辨识度与制作故事可能提供可分享的内容素材。是否形成稳定获客优势仍未知；没有将首页精选评价视为代表性用户研究。{{source}} — Proudly Handmade；Let customers speak for us。\n\n## 渠道与操作约束\n**观察范围：**已知品牌有直接销售网站；没有读取任何站外渠道数据。**推断：**手洗要求可能增加礼物收礼人的维护成本，需要验证其影响。运输破损率、包装成本、重量、供应能力、毛利和复购均未知。{{source}} — 官网首页；页脚。\n\n## 配置适配与空白\n本 Brain 未配置市场、兴趣或物流偏好；不得由此案例推导 US/EU 稀缺性或默认轻量运输要求。当前也没有供应商或 SKU 验证，不生成完整品牌方案或交接文件。\n\n## 新研究问题（2026-10-23 修订）\n**假设待测：**送礼者重视的兴趣符号，在收礼者实际使用时是否仍有价值？下一轮分别询问送礼者的选择标准与收礼者的使用频率，检查“好送”与“常用”是否一致。此问题来自对现有分类与手洗限制的再解释，没有新增网站事实。\n\n## 决策\n**Study。**首页足以提出“兴趣身份 × 送礼”假设，但不足以判断市场机会或产品表现。\n\n## 下一步\n在后续获授权研究中收集送礼者和收礼者的独立反馈，分别记录选礼原因、使用频率与手洗负担；先验证真实用户任务。\n"
+    }
+  ],
+  "decision": "Study",
+  "summary": "在同一首页证据上新增送礼者与收礼者价值差异的研究问题；没有新增来源。",
+  "next_action": "分别比较送礼者的选礼标准与收礼者的使用频率，检验好送与常用是否一致。"
+}

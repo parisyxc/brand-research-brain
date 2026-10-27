@@ -1,0 +1,74 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "benshot": {
+      "name": "BenShot",
+      "aliases": [],
+      "page": "wiki/brands/benshot.md",
+      "pages": [
+        "wiki/brands/benshot.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-743871faa00b4d057ada": {
+      "brand": "benshot",
+      "path": "raw/sources/benshot/s-743871faa00b4d057ada.md",
+      "identity": "https://benshot.com/",
+      "source": {
+        "type": "official_site",
+        "url": "https://benshot.com/",
+        "title": "BenShot | Original Bulletproof Glasses — official homepage",
+        "publisher": "BenShot",
+        "published_at": null,
+        "observed_at": "2026-10-23",
+        "access": "complete",
+        "limitations": [
+          "仅阅读官网首页的检索文本；未访问商品、About 或政策子页。",
+          "官方陈述未独立核验；精选评价不代表用户总体。"
+        ],
+        "capture": "首页展示按爱好和送礼对象区分的杯具系列。品牌自述自 2015 年起由父子团队在 Wisconsin 手工制作。页脚说明杯具并不防弹或防碎，且只能手洗。首页呈现客户评价，但没有代表性抽样信息。证据位置：Proudly Handmade、Shop by Collection、Let customers speak for us、页脚免责声明。",
+        "claims": [
+          {
+            "text": "品牌自述自 2015 年起在 Wisconsin 手工制作杯具，由父子团队经营。",
+            "kind": "official_claim",
+            "locator": "Homepage / Proudly Handmade; lines 19–21"
+          },
+          {
+            "text": "首页按爱好和送礼对象展示系列入口。",
+            "kind": "observed_feature",
+            "locator": "Homepage / Shop by Collection; lines 24–63"
+          },
+          {
+            "text": "页脚明确说明杯具并非防弹或防碎，且只能手洗。",
+            "kind": "official_claim",
+            "locator": "Homepage / footer disclaimer; line 200"
+          }
+        ]
+      },
+      "capture_sha256": "688e67a0d4b6d0c248066e4a5eaf205702bd42e5b6779e81f67f5f14ef7addaa"
+    }
+  },
+  "events": [
+    {
+      "id": "e-72c2832925f6d49bd1c2",
+      "source_id": "s-743871faa00b4d057ada",
+      "date": "2026-10-23",
+      "type": "intake",
+      "decision": "Study",
+      "pages": {
+        "wiki/brands/benshot.md": "1824dc145f2309afb2048b602eaba9c3884a7fdca7693477253b4d150606f73a"
+      }
+    },
+    {
+      "id": "e-0d84bce90f1345e9304d",
+      "source_id": "s-743871faa00b4d057ada",
+      "date": "2026-10-23",
+      "type": "revision",
+      "decision": "Study",
+      "pages": {
+        "wiki/brands/benshot.md": "ac8c9acd929c95d48a01c8d0951b788e807323b281250e0dd68912327a871b1a"
+      }
+    }
+  ]
+}

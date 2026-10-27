@@ -1,0 +1,50 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "kaleidos": {
+      "name": "Kaleidos",
+      "aliases": [],
+      "page": "wiki/brands/kaleidos.md",
+      "pages": [
+        "wiki/brands/kaleidos.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-924fb42ed19fa216916e": {
+      "brand": "kaleidos",
+      "path": "raw/sources/kaleidos/s-924fb42ed19fa216916e.md",
+      "identity": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+      "source": {
+        "type": "clip",
+        "url": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+        "title": "Kaleidos — supplied incomplete clip",
+        "publisher": "剪藏元数据标注 PangJing Media；未独立核验",
+        "published_at": null,
+        "observed_at": "2026-10-23",
+        "access": "partial",
+        "limitations": [
+          "仅使用用户提供的 Markdown；未联网补充或打开原文链接。",
+          "文件含重复元数据和模板；Original Content 无完整文章，只有一条重复的解释性句子。",
+          "该句可能是剪藏者的笔记，也可能是摘录；作者归属不明。",
+          "标题中的日收百万没有币种、日期、口径或正文证据，不能验证。"
+        ],
+        "capture": "剪藏标题为“浙大学霸离开欧莱雅，把一盘眼影卖到海外，日收百万”，元数据指向微信并标注 PangJing Media，发布日期为空。正文重复模板，唯一实质内容是一条解释性句子：Kaleidos 早期把产品变为内容，由创作者解释产品；该方法如今被许多品牌采用。句子在 Why I Saved This 和 Original Content 重复，不能确定作者，也没有完整文章支持。",
+        "claims": []
+      },
+      "capture_sha256": "d0f70b5cd086f9d466acd7ab0810e78c2d0ee405168445e2c842bb892a0f02c0"
+    }
+  },
+  "events": [
+    {
+      "id": "e-48af6650e546a085db72",
+      "source_id": "s-924fb42ed19fa216916e",
+      "date": "2026-10-23",
+      "type": "intake",
+      "decision": "Study",
+      "pages": {
+        "wiki/brands/kaleidos.md": "678b2773ea062b07558f66419c64682e61c17d286f4d9ae397ba4bfb2252adb8"
+      }
+    }
+  ]
+}

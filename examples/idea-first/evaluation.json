@@ -1,0 +1,39 @@
+{
+  "kind": "independent agent behavior evaluation",
+  "date": "2026-10-24",
+  "inputs": [
+    "Existing saved Looki Brain, without newer independent ideas",
+    "Public incomplete Kaleidos fixture"
+  ],
+  "network_used": false,
+  "looki": {
+    "new_idea": "A scoped hypothesis about capture, curation and recall effort",
+    "old_UseIt_idea_unchanged": true,
+    "source_observation_inference_unknowns_separated": true,
+    "target_market_selected": false
+  },
+  "kaleidos": {
+    "case_and_raw_saved": true,
+    "new_idea_created": false,
+    "sales_from_title_accepted": false
+  },
+  "preservation": {
+    "old_raw_records": 29,
+    "old_events": 5,
+    "original_brain_unchanged": true,
+    "deletions": 0
+  },
+  "final_counts": {
+    "sources": 30,
+    "events": 7
+  },
+  "all_four_repeats_duplicate_unchanged": true,
+  "checker_errors": [],
+  "limits": [
+    "Instruction-only refinements cannot be validated by helper tests alone.",
+    "Minor visible process language and adjacent-feature evidence interpretation noted in the actual output.",
+    "The preserved run preceded the two narrow editorial refinements made after review.",
+    "Private baseline and full reports are excluded from release.",
+    "Not an installed-host UI/discovery test."
+  ]
+}

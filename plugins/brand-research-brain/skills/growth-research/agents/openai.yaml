@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research a brand's growth"
+  short_description: "Research marketing or present a full growth study"
+  default_prompt: "Use $growth-research to investigate this brand's marketing or present my completed growth note as HTML with phases, concrete examples and lessons. Reuse existing research when supplied."

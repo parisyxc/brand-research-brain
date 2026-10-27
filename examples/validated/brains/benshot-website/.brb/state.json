@@ -1,0 +1,94 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "benshot": {
+      "name": "BenShot",
+      "aliases": [],
+      "page": "wiki/brands/benshot.md",
+      "pages": [
+        "wiki/brands/benshot.md",
+        "wiki/categories/recipient-specific-gifts.md",
+        "wiki/growth/identity-navigation-and-trust.md",
+        "wiki/ideas/recognizable-gift-cues.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-9853ab0cb426cdcf05be": {
+      "brand": "benshot",
+      "path": "raw/sources/benshot/s-9853ab0cb426cdcf05be.md",
+      "identity": "https://benshot.com/",
+      "source": {
+        "type": "official_site",
+        "url": "https://benshot.com/",
+        "title": "BenShot 官方首页",
+        "publisher": "BenShot",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "只读取官网首页可提取文字，没有跟进产品、故事或政策子页，也没有独立测试。",
+          "精选评论与评论总数是站内呈现，不能作为代表性用户样本、销量或复购证明。",
+          "没有测量价格、成本、破损率、市场规模或实际投放表现。"
+        ],
+        "capture": "首页以 Wisconsin 手工制作与父子故事介绍玻璃杯。集合导航按运动、职业或兴趣及送礼对象组织；站内呈现顾客评论、保证和邮件订阅。页脚说明杯子并不防弹或防碎且须手洗。",
+        "claims": [
+          {
+            "text": "品牌自称由父子团队在 Wisconsin 手工制作玻璃杯。",
+            "kind": "official_claim",
+            "locator": "Homepage / Proudly Handmade (lines 19–23)"
+          },
+          {
+            "text": "集合导航包含兴趣主题及送礼对象，另有评论、保证与订阅区。",
+            "kind": "observed_feature",
+            "locator": "Homepage / Shop by Collection; Guarantee; Let customers speak; Subscribe (lines 24–197)"
+          },
+          {
+            "text": "页脚明确产品不防弹、不防碎并要求手洗。",
+            "kind": "official_claim",
+            "locator": "Homepage / Footer disclaimer (line 200)"
+          }
+        ]
+      },
+      "capture_sha256": "d345bfbbd148a759aac52423bd9374b1e26bbbea3e800c9a75f7fb8795b33543"
+    }
+  },
+  "events": [
+    {
+      "id": "e-eb567710ea1001258260",
+      "source_id": "s-9853ab0cb426cdcf05be",
+      "date": "2026-10-24",
+      "type": "intake",
+      "decision": "Study",
+      "dimension_reviews": {
+        "category": {
+          "action": "write",
+          "reason": "导航呈现送礼对象选择任务，且护理限制形成可研究的使用权衡。",
+          "paths": [
+            "wiki/categories/recipient-specific-gifts.md"
+          ]
+        },
+        "growth": {
+          "action": "write",
+          "reason": "主题导航与信任模块可直接观察，可提出选择和风险降低机制的检查方法。",
+          "paths": [
+            "wiki/growth/identity-navigation-and-trust.md"
+          ]
+        },
+        "ideas": {
+          "action": "write",
+          "reason": "把兴趣线索转成礼物个人关联是独立且可用草图比较的假设。",
+          "paths": [
+            "wiki/ideas/recognizable-gift-cues.md"
+          ]
+        }
+      },
+      "pages": {
+        "wiki/brands/benshot.md": "c9f4276e00619ca5a5f4bcb1b8a6fcc849bfb754e0b4f69345f255167d6510cd",
+        "wiki/categories/recipient-specific-gifts.md": "a7c448e65134f336ad794381251bd786bbf73817a7f26657c80063413e7cdcb7",
+        "wiki/growth/identity-navigation-and-trust.md": "14062235a88cddddf3f46071d323b85b8427451694f4271a8238dc75fd639150",
+        "wiki/ideas/recognizable-gift-cues.md": "14e71cf6d65950c0a9fad657abb3a636b836ee7616b0443435e2f1a8813f5fc0"
+      }
+    }
+  ]
+}

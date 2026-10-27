@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ruggable-article",
+    "date": "2026-10-24",
+    "language": "zh-CN",
+    "steps": [
+      {
+        "payload": "ruggable.json",
+        "expected_status": "ingested"
+      },
+      {
+        "payload": "ruggable-revision.json",
+        "revise": true,
+        "rendered_source_link": true,
+        "expected_status": "revised"
+      }
+    ],
+    "expected_counts": [
+      1,
+      1,
+      2
+    ],
+    "expected_pages": {
+      "brands": 1,
+      "categories": 1,
+      "growth": 1,
+      "ideas": 1
+    }
+  },
+  {
+    "id": "benshot-website",
+    "date": "2026-10-24",
+    "language": "zh-CN",
+    "steps": [
+      {
+        "payload": "benshot.json",
+        "expected_status": "ingested"
+      }
+    ],
+    "expected_counts": [
+      1,
+      1,
+      1
+    ],
+    "expected_pages": {
+      "brands": 1,
+      "categories": 1,
+      "growth": 1,
+      "ideas": 1
+    }
+  },
+  {
+    "id": "kaleidos-partial-clip",
+    "date": "2026-10-24",
+    "language": "zh-CN",
+    "steps": [
+      {
+        "payload": "kaleidos.json",
+        "expected_status": "ingested"
+      }
+    ],
+    "expected_counts": [
+      1,
+      1,
+      1
+    ],
+    "expected_pages": {
+      "brands": 1,
+      "categories": 0,
+      "growth": 1,
+      "ideas": 0
+    }
+  }
+]

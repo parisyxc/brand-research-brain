@@ -1,0 +1,57 @@
+{
+  "schema": "brb-share/v1",
+  "brand": {
+    "id": "example-brand",
+    "name": "Example Brand"
+  },
+  "date": "2026-10-25",
+  "headline": "让买家更容易\n找到合适的礼物。",
+  "dek": "一份最小格式示例，只说明礼物导航这一条观察，不代表完整研究。",
+  "facts": [
+    {
+      "label": "页面观察",
+      "text": "首页按收礼人的兴趣组织礼物。"
+    }
+  ],
+  "formula": [
+    "收礼人兴趣",
+    "候选礼物",
+    "具体商品"
+  ],
+  "practices": [
+    {
+      "title": "从收礼人开始导航",
+      "observed": "页面把兴趣作为寻找礼物的入口。",
+      "lesson": "为候选产品试写一个按送礼对象组织的集合页。"
+    }
+  ],
+  "category": {
+    "title": "礼赠商品：按兴趣帮助选择",
+    "summary": "已知是礼赠商品页面，这个片段只展示按收礼人兴趣分类，尚不足以解释独特的品类创新。",
+    "points": []
+  },
+  "growth": {
+    "title": "目前只能观察站内入口",
+    "summary": "未研究社交媒体、创作者或搜索表现，不能据此判断获客策略。",
+    "points": []
+  },
+  "ideas": {
+    "title": "还需要更具体的用户问题",
+    "summary": "只有导航观察，不足以构成独立产品假设。",
+    "points": []
+  },
+  "next_action": "为一个候选产品画出按收礼人兴趣组织的集合页草稿。",
+  "source_note": "最小格式示例，不是实际品牌的研究报告。使用时替换内容，并读取所用 Markdown 的当前哈希。",
+  "sources": [
+    {
+      "label": "示例首页",
+      "url": "https://example.org/"
+    }
+  ],
+  "basis": [
+    {
+      "path": "wiki/brands/example-brand.md",
+      "sha256": "REPLACE_WITH_CURRENT_MARKDOWN_SHA256"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "mode": "growth",
+  "brand": {
+    "id": "useit",
+    "name": "UseIt",
+    "aliases": [
+      "USEIT PTE. LTD.",
+      "UseIt AI",
+      "UseIt Studio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_site",
+      "url": "https://useit.im/",
+      "title": "UseIt 官网｜场景、制作流程与 Gallery",
+      "publisher": "UseIt / USEIT PTE. LTD.",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "读取公开页面文字，未测试交互演示、生成能力或实物成品；未登录 Studio。"
+      ],
+      "capture": "中文摘记（非全文快照）：首页将用途分为 DIY、品牌配套设计、送给特定对象三类；以局部编辑和同风格套组展示修改过程；生产环节展示 3D 预览、切割线与白墨层；Gallery 介绍以他人作品替换文字、照片的复用方式。主要入口指向 studio.useit.im。",
+      "claims": [
+        {
+          "text": "用途分为 DIY、品牌配套设计和个人赠礼。",
+          "kind": "observed_feature",
+          "locator": "首页 / What you can make"
+        },
+        {
+          "text": "页面演示局部编辑、同风格套组，以及生产前的预览和文件准备。",
+          "kind": "observed_feature",
+          "locator": "首页 / Change a detail 与 Ready for production"
+        },
+        {
+          "text": "官网称 Gallery 作品可以供他人制作自己的版本。",
+          "kind": "official_claim",
+          "locator": "首页 / Gallery"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://x.com/useit_ai",
+      "title": "UseIt X：近期功能帖与发布成绩",
+      "publisher": "UseIt AI @useit_ai",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "按自我标识与域名回链归属；未确认账号控制权，官网文字抓取未见回链。",
+        "网页工具403，普通浏览器只读公开预览成功；只看五条近期文案，部分截断，未登录、观看媒体或统计90天频率。",
+        "未采集互动率、点击、转化；界面checkbox的0不是互动计数。"
+      ],
+      "capture": "公开简介链接useit.im，介绍可编辑设计文件。浏览器看到五条帖文：最新帖引用2026-10-21 Product Hunt成绩；2026-10-23三条分别讲Illustrator工作流、真实尺寸/出血/刀模、可编辑文字/矢量/图层；2026-10-19一条讲局部修改。未播放配图或视频。",
+      "claims": [
+        {
+          "text": "账号简介回链useit.im；当前公开预览的文案围绕可编辑与可生产文件。",
+          "kind": "observed_feature",
+          "locator": "Profile bio；Posts"
+        },
+        {
+          "text": "10月23日三条帖文分别讲Illustrator工作流、生产参数和可编辑图层。",
+          "kind": "observed_feature",
+          "locator": "https://x.com/useit_ai/status/2113541342362296808 ; https://x.com/useit_ai/status/2113541122211598626 ; https://x.com/useit_ai/status/2113540508643680442"
+        }
+      ]
+    },
+    {
+      "type": "document",
+      "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+      "title": "UseIt Product Hunt：创始人、hunter 与试用激励",
+      "publisher": "Product Hunt / UseIt makers",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "当日激励为历史页面观察，不建议现在兑换。",
+        "页面相对时间显示不一致，不据此推导准确发布时间；点赞/获奖不是销售或新增付费用户。",
+        "hunter致谢不等于付费赞助，也不是已确认的独立创作者评测。"
+      ],
+      "capture": "讨论区两位Maker介绍实体设计场景，感谢@zaczuo担任hunter，并公布15000积分的当日加入激励。用户询问生产可行性和价格可见性，Maker有回复。未核验激励有效期、使用量或付费合作。",
+      "claims": [
+        {
+          "text": "Maker贴将产品故事、hunter致谢与15000积分试用激励放在同一发布讨论中。",
+          "kind": "observed_feature",
+          "locator": "Discussion / Lindia Chen and Daniel Gao maker posts"
+        },
+        {
+          "text": "讨论区可见生产可行性与首页价格信息的用户问题及Maker回复。",
+          "kind": "observed_feature",
+          "locator": "Discussion / Shivam Kushwaha and Sumedh Bengale threads"
+        }
+      ]
+    },
+    {
+      "type": "document",
+      "url": "https://www.aitoolnet.com/useit-studio",
+      "title": "Aitoolnet：UseIt 搜索目录入口",
+      "publisher": "Aitoolnet",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "只研究发布者的页面组织与回链，不采信其流量估计或据此验证产品能力。",
+        "无品牌委托、付费提交或SEO成效证据。"
+      ],
+      "capture": "该目录页有UseIt标题、可编辑/印刷文件的说明、使用场景和FAQ，Visit website链接指向useit.im。可观察站外介绍入口，但不知道是否由UseIt提交、是否付费、实际排名或流量。",
+      "claims": [
+        {
+          "text": "UseIt目录页提供回链官网的Visit website入口，并用印刷文件和使用场景组织介绍。",
+          "kind": "observed_feature",
+          "locator": "Title；Visit website；Use Cases；FAQ"
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "url": "https://aiindigo.com/blog/useit-studio-ai-design-co-pilot-for-print-cut-and-fold-projects",
+      "title": "AI Indigo：UseIt 教程式介绍入口",
+      "publisher": "AI Indigo Team",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "第三方发布内容，不是已验证的独立实测或品牌自有内容计划。",
+        "未核验搜索量、排名、外链权重、作者利益关系或流量。"
+      ],
+      "capture": "2026-10-21的介绍文章按用途、开始步骤、示例输入与工具比较组织内容，链接其UseIt工具页。作者是否真实试用、与品牌是否有商业关系未知；不是品牌自有SEO文章，也没有验证转化路径中的实际点击。",
+      "claims": [
+        {
+          "text": "文章有用途、步骤、示例输入和工具比较等章节。",
+          "kind": "observed_feature",
+          "locator": "Who It Suits；Step-by-step；Example Prompts；Comparison Table"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "local_ref": "research/useit-growth-2026-10-24",
+      "title": "UseIt 免费研究：查询与访问范围",
+      "publisher": "Brand Research Brain research session",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "有范围搜索不证明平台上不存在内容；搜索工具和现有Agent服务仍可能消耗原有额度。"
+      ],
+      "capture": "实际查询：\n- \"useit.im\" -site:useit.im\n- \"useit.im\" instagram OR youtube OR tiktok OR twitter\n- \"useit.im\" \"youtube.com\"\n- \"useit.im\" \"instagram.com\"\n- \"useit.im\" \"tiktok.com\"\n- \"UseIt Studio\" review tutorial -site:useit.im\n- \"useit_ai\" \"Studio\"\n- site:youtube.com/watch \"UseIt\" \"design\"\n- site:instagram.com \"UseIt Studio\"\n- site:useit.im blog OR tutorial OR templates\n- AI editable print ready design files gift boxes\n- AI packaging dieline generator tutorial\n访问：首页、Product Hunt 产品讨论页、X @useit_ai、Aitoolnet 产品页、AI Indigo 介绍文章；尝试 robots.txt、sitemap.xml。网页读取器访问 X 返回403，随后普通浏览器公开预览成功。简介回链useit.im，定位与当前设计产品一致；未登录，未确认控制权。浏览器只展示近期五条帖文及截断文本；未观看媒体。IG/TikTok/YouTube 的上述查询未找到本次可核实的相关创作者内容，不等于平台上不存在。robots/sitemap 在网页工具中不可读，未判定HTTP404。没有付费数据API、注册、登录、创作者联系或广告操作。补查两条非品牌词，结果含模板、工具和教程入口，未找到本次可核实的UseIt结果；这不证明未收录或不排名。搜索未指定地区、未作可重复排名测量；无90天历史频率统计。排除同名无关工具、过时GUI-agent镜像和无法追溯的目录估计。",
+      "claims": []
+    }
+  ],
+  "pages": [
+    {
+      "path": "wiki/growth/useit-growth.md",
+      "content": "# UseIt：发布故事、功能拆解与站外搜索入口\n\n研究：2026-10-24 · 公开免费流程 · 案例：[[wiki/brands/useit|UseIt]]\n\n**最清楚的路径：**X 功能文案和 Product Hunt 发布讨论承载产品解释；账号简介、发布页和第三方目录提供进入产品的入口。进入官网后可开始创建，但各入口带来多少注册或订单未知，不能把并列触点当成已验证的增长漏斗。[X][x]、[发布讨论][ph]、[目录][directory]。\n\n## 实际查到什么\n\n| 方向 | 证据与理解 | 还不知道什么 |\n| --- | --- | --- |\n| 社交媒体 | @useit_ai 简介回链官网。公开预览五条近期帖，分别解释局部修改、图层、生产文件、Illustrator 工作流和发布成绩。可以观察到“一个帖子讲一个使用理由”。 | 仅看到10月19日以来的片段；没看媒体、没统计互动或渠道转化。尚未确认 IG/TikTok 的相关账号。 |\n| 创作者与社区 | Product Hunt 的Maker讲起源和用途，感谢hunter @zaczuo，并提供试用积分；用户提出生产可行性与价格问题，Maker回复。 | hunter是发布角色，不能写成已付费KOL；本次未确认独立创作者视频、赞助关系或联盟成效。 |\n| SEO 与内容 | 搜索能找到 Aitoolnet 目录页和 AI Indigo 教程式介绍。前者回链官网；内容围绕印刷文件、用途、步骤、示例和比较展开。 | 第三方介绍不等于品牌主动SEO策略。没有关键词量、稳定排名、自然流量或品牌自有博客证据。 |\n\n## 三个具体做法\n\n1. **把复杂产品拆成连续的小问题。**X 的三条10月23日文案分别讲不同能力；可以借用“一篇内容只解释一个选择理由”，例如自己的定制商品依次讲怎么改、怎么确认、最后收到什么。这里只分析可读文案，未宣称看过视频。[近期帖子][x]\n2. **发布时把故事、试用入口和答疑放在一起。**Maker在 Product Hunt 的介绍与积分激励后继续回答使用顾虑。可以先准备自己的简短产品故事、真实示例和FAQ，再选择相关社区发布；不是照搬过期代码，也没有证据表明激励带来多少付费。[发布讨论][ph]\n3. **让具体用途词连接内容与产品。**目录和教程用可编辑文件、印刷、场景与步骤说明产品；可借鉴其内容结构，为自己的商品写一篇具体用途教程并链接商品。这是从站外介绍提炼的方法，不代表 UseIt 委托了这些文章或靠它们获得了流量。[目录][directory]、[介绍文章][article]\n\n**我的下一步：**为一个候选商品写一篇短内容：一个真实使用问题、一段解决过程、一个清楚的商品入口。相关站内方法保留在[[wiki/growth/reusable-examples-to-personalization|从可复用示例到个性化入口]]。\n\n## 范围与来源\n\n网页工具对 X 返回403后，普通浏览器能读公开预览，未登录。IG/TikTok/YouTube 查询暂未得到可核实的相关创作者证据；robots/sitemap在工具中不可读。没有额外数据API费用，没有接入AISA；仍使用现有Agent与搜索服务。查询与访问限制保存在最后一份来源记录中。\n\n{{sources}}\n\n[x]: https://x.com/useit_ai\n[ph]: https://www.producthunt.com/products/useit-studio-from-idea-to-delivery\n[directory]: https://www.aitoolnet.com/useit-studio\n[article]: https://aiindigo.com/blog/useit-studio-ai-design-co-pilot-for-print-cut-and-fold-projects\n"
+    },
+    {
+      "path": "wiki/brands/useit.md",
+      "content": "# UseIt：把设计意图变成可制作的实物\n\n研究日期：2026-10-24。用于自己的 Shopify 选品与建站学习。\n\n## 这个生意怎么运转\n\n**官方定位与页面观察：**UseIt 提供面向实体物品的 AI 设计工作室。首页用 DIY、品牌配套、个人赠礼组织用途，服务想自己动手的人、小品牌和送礼者；这些是官网面向的人群，不是已验证的付费客群。[首页](https://useit.im/)\n\n**我的理解：**它在连接“我有一个想法”和“这个设计能被做出来”。用户需要的不止一张好看的图，还包括可修改、可确认和可交付。它的产品边界覆盖设计工具与定制制作服务，不能仅按普通礼品店理解。\n\n**怎么收费：**条款描述订阅和实物订单收费；积分承载生成与付费模板复用，并可随方案或额度发放。这说明软件使用和实物交易是两类收费入口，不代表每项功能均已实测。定制订单由平台及生产伙伴制作，付款后启动。具体价格、利润和收入结构未知。[条款 §6–7](https://useit.im/terms-of-service)\n\n隐私说明补充了生产、承运和支付环节，因此其官方描述包含履约服务；这不等于已验证交付质量。[隐私说明 §2、§5](https://useit.im/privacy-policy)\n\n## 学三个具体做法\n\n### 1. 先给购买场景，再给产品入口\n\n**看到：**首页按自制、品牌配套、赠礼划分用途，而非只列工具能力。\n\n**为什么可能有用：**这是我的解释——访客可以先判断“它适不适合我要做的事”，减少理解成本，效果仍需验证。\n\n**我怎么用：**给候选 Shopify 品类写“谁／在什么时刻／要完成什么”的集合页说明。只有当不同场景确实影响选择时才拆分入口。延伸：[[wiki/categories/personalized-physical-goods|定制实物：从购买任务看品类]]。\n\n### 2. 把从设计到交付的疑问放在页面上解决\n\n**看到：**官网把局部修改、预览及生产文件准备串在同一叙事中。\n\n**为什么可能有用：**我的推断是，它回应了“改得准吗、做得出来吗”的顾虑；演示不能证明实际效果。\n\n**我怎么用：**定制商品页展示一张真实的修改前后示例，并说明确认稿、成品差异和交付内容。样品尚未制作时明确标注效果图，不把展示图当实拍。\n\n### 3. 让一份作品成为下一位用户的起点\n\n**看到：**Gallery 支持用现有设计制作自己的版本；隐私说明区分公开作品和私密聊天。\n\n**为什么可能有用：**我的推断是，可复用示例比空白输入框更容易启动创作，也能成为内容入口；没有证据证明它带来多少增长。\n\n**我怎么用：**用自有或明确获授权的原创设计制作“改名字就能用”的示例，逐个对应商品入口。详见[[wiki/growth/reusable-examples-to-personalization|从可复用示例到个性化入口]]。\n\n## 边界与我的下一步\n\n本次依据三份公开页面；Studio 入口未返回可读正文，未登录、试用、核验付款流程或配送范围。用户量、销量、获客成本、SEO 表现及是否使用 Shopify 均未知。**Gallery 默认复用范围是个人用途，且目前不向创作者付款；不能把它当成已开放商业授权或创作者分成的市场。**[条款 §4](https://useit.im/terms-of-service)\n\n下一步只做一张[[wiki/ideas/occasion-card-product-outline|原创场景卡片的 Shopify 商品页草稿]]：选一个送礼时刻，写清可改内容、确认方式与交付形式。\n\n## 来源记录\n\n以下为带定位的中文摘记，不是完整网页存档。\n\n- [[raw/sources/useit/s-b36cedd4c78cf260b3ff|UseIt 官网｜场景、制作流程与 Gallery]]\n- [[raw/sources/useit/s-69b47df56cdc19ff86f4|UseIt 使用条款｜收费、实物订单与模板用途]]\n- [[raw/sources/useit/s-ce976945b41a86d8bb06|UseIt 隐私说明｜订单链路与公开内容]]\n\n进一步学习：[[wiki/growth/useit-growth|社交媒体、创作者与 SEO 研究]]。\n",
+      "expected_sha256": "b2518a94a1a2a41164fad23f84194b2d6c3bf1a64c4da6fc213e7492fe46a405"
+    }
+  ],
+  "summary": "从近期 X 功能帖、Product Hunt 发布与站外介绍学习产品解释和发现入口；创作者合作与SEO效果仍待验证。",
+  "next_action": "下一步：为一个候选商品写一篇“使用问题 → 解决过程 → 商品入口”的短内容。"
+}

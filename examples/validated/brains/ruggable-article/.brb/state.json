@@ -1,0 +1,134 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "ruggable": {
+      "name": "Ruggable",
+      "aliases": [],
+      "page": "wiki/brands/ruggable.md",
+      "pages": [
+        "wiki/brands/ruggable.md",
+        "wiki/categories/maintainable-home-textiles.md",
+        "wiki/growth/lifestyle-proof-and-creator-testing.md",
+        "wiki/ideas/separate-wear-layer.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-3df6e23c5099ecb7d358": {
+      "brand": "ruggable",
+      "path": "raw/sources/ruggable/s-3df6e23c5099ecb7d358.md",
+      "identity": "https://www.doublevconsulting.com/post/dtc%E5%93%81%E7%89%8C%E6%8B%86%E8%A7%A3-%E4%B8%93%E6%B3%A8%E7%BB%86%E5%88%86%E7%B1%BB%E7%9B%AE%E7%9A%84%E5%8F%AF%E6%9C%BA%E6%B4%97%E5%9C%B0%E6%AF%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%B9%B4%E9%94%802-5%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%9F",
+      "source": {
+        "type": "article",
+        "url": "https://www.doublevconsulting.com/post/dtc%E5%93%81%E7%89%8C%E6%8B%86%E8%A7%A3-%E4%B8%93%E6%B3%A8%E7%BB%86%E5%88%86%E7%B1%BB%E7%9B%AE%E7%9A%84%E5%8F%AF%E6%9C%BA%E6%B4%97%E5%9C%B0%E6%AF%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%B9%B4%E9%94%802-5%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%9F",
+        "title": "Ruggable 可机洗地毯品牌拆解（所供文章）",
+        "publisher": "Double V Consulting / wanyixu",
+        "published_at": "2025-08-05T05:10:48.534Z",
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "只读取所供文件的文字正文，未打开图片或外部链接。",
+          "文章属咨询机构案例分析，不是独立产品测试或财务审计；统计期与部分指标口径不明。",
+          "My Initial Notes 的创新公式与文章报道分开记录；笔记作者身份未独立核实。"
+        ],
+        "capture": "所供文件含完整案例正文及一段个人笔记。品牌简介报道双层可拆面层与防滑垫、宠物污渍起源及官网和 Amazon 销售；其 2.5 亿美元同时被称作预估年零售额和年收入。WHAT 描述机洗指南、尺寸指引、风格替换及联名。WHY 描述家居场景内容、精选 UGC 和先自然内容测试后 Allowlisting。文章声称获客成本改善但没有方法、时期或数值。笔记将此抽象为维护痛点加工程创新与生活方式品牌。",
+        "claims": [
+          {
+            "text": "文章报道可拆装饰面层与防滑底垫构成双层系统，面层可机洗。",
+            "kind": "reported_claim",
+            "locator": "Original Content / 品牌简介；WHAT / 创新双层结构"
+          },
+          {
+            "text": "2.5 亿美元被标为预估年零售额，正文又称年收入；期间未说明。",
+            "kind": "reported_claim",
+            "locator": "Original Content / 品牌简介"
+          },
+          {
+            "text": "文章描述以家居场景内容和精选用户照片展示使用情境，并将自然内容测试后用于 Allowlisting。",
+            "kind": "reported_claim",
+            "locator": "Original Content / WHY / 内容营销；达人Allowlisting"
+          },
+          {
+            "text": "笔记将学习点归纳为传统高价值家居产品的维护痛点、工程创新和 Lifestyle Branding。",
+            "kind": "user_note",
+            "locator": "My Initial Notes（作者未另行标明）"
+          }
+        ]
+      },
+      "capture_sha256": "a1a7c6744361d579d7566cfb2410aced03aa9d3119496c9f11f68cb91f56eb2c"
+    }
+  },
+  "events": [
+    {
+      "id": "e-536fe0508f5bb85f129c",
+      "source_id": "s-3df6e23c5099ecb7d358",
+      "date": "2026-10-24",
+      "type": "intake",
+      "decision": "Study",
+      "dimension_reviews": {
+        "category": {
+          "action": "write",
+          "reason": "双层系统揭示维护流程中的品类权衡，足以提出完整流程比较。",
+          "paths": [
+            "wiki/categories/maintainable-home-textiles.md"
+          ]
+        },
+        "growth": {
+          "action": "write",
+          "reason": "文章明确描述场景、UGC 与创作者内容测试，可分析机制并保留因果限制。",
+          "paths": [
+            "wiki/growth/lifestyle-proof-and-creator-testing.md"
+          ]
+        },
+        "ideas": {
+          "action": "write",
+          "reason": "污染部位与耐久结构分离能转成有适用条件和失败条件的可测原则。",
+          "paths": [
+            "wiki/ideas/separate-wear-layer.md"
+          ]
+        }
+      },
+      "pages": {
+        "wiki/brands/ruggable.md": "6afc44f4fd6e0abe630c447584c84a36b74e32998a1b02d0f18fff4768fadf2b",
+        "wiki/categories/maintainable-home-textiles.md": "1bae38c38bc88bc90242990351f1dba9c89ef4f90fea1a7d5107517cd43cd7eb",
+        "wiki/growth/lifestyle-proof-and-creator-testing.md": "272761ede02efd478965b3b1162f7f0bfd1d6018b90edfda9a1bf0b2de6a77de",
+        "wiki/ideas/separate-wear-layer.md": "57a50e590e290489c37d67a422f4b62a80a13156b646c9c2f4b403add9ab8f1d"
+      }
+    },
+    {
+      "id": "e-fb12e79898ef58f70e1d",
+      "source_id": "s-3df6e23c5099ecb7d358",
+      "date": "2026-10-24",
+      "type": "revision",
+      "decision": "Study",
+      "dimension_reviews": {
+        "category": {
+          "action": "write",
+          "reason": "原维护品类页适用；追加机器与面层组合、复装任务和对照，不新增重复页。",
+          "paths": [
+            "wiki/categories/maintainable-home-textiles.md"
+          ]
+        },
+        "growth": {
+          "action": "retain",
+          "reason": "仍只有原有场景内容与创作者测试报道；本轮设备适配和复装设计不增加增长证据，原页已包含因果限制。",
+          "paths": [
+            "wiki/growth/lifestyle-proof-and-creator-testing.md"
+          ]
+        },
+        "ideas": {
+          "action": "write",
+          "reason": "在原易脏层分离假设中补上两个必要条件及证伪路径，保留既有依据与失败条件。",
+          "paths": [
+            "wiki/ideas/separate-wear-layer.md"
+          ]
+        }
+      },
+      "pages": {
+        "wiki/brands/ruggable.md": "bf0e42b39b1ea82f3c6c8a8fad278dd7b3bb999290e7bb6cc7f218ec2ff319d8",
+        "wiki/categories/maintainable-home-textiles.md": "1b49adce9b35f5dcace0b2970c9a2d1ba24022b2becd5b912a566255e35fa577",
+        "wiki/ideas/separate-wear-layer.md": "e5f93469173457029c2f348d9a8419b9c241d39833048e9c00b9c84870e2d37e"
+      }
+    }
+  ]
+}

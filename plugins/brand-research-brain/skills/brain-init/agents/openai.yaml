@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start a Shopify learning Brain"
+  short_description: "Create a linked Shopify learning wiki"
+  default_prompt: "Use $brain-init to create my Shopify research and learning Brain."

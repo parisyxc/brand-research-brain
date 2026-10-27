@@ -1,0 +1,8 @@
+{
+  "name": "brand-research-brain",
+  "version": "0.6.0",
+  "description": "Learn from brands, build linked Shopify knowledge, and share readable HTML with optional detailed growth chapters.",
+  "author": {"name": "Paris Young"},
+  "license": "MIT",
+  "keywords": ["shopify", "learning", "brand-research", "obsidian", "llm-wiki"]
+}

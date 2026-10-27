@@ -1,0 +1,306 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "useit": {
+      "name": "UseIt",
+      "aliases": [
+        "USEIT PTE. LTD.",
+        "UseIt AI",
+        "UseIt Studio"
+      ],
+      "page": "wiki/brands/useit.md",
+      "pages": [
+        "wiki/brands/useit.md",
+        "wiki/categories/personalized-physical-goods.md",
+        "wiki/growth/reusable-examples-to-personalization.md",
+        "wiki/ideas/occasion-card-product-outline.md"
+      ]
+    },
+    "looki": {
+      "name": "Looki",
+      "aliases": [
+        "Looki AI",
+        "Looki L1",
+        "Looki Tech Ltd."
+      ],
+      "page": "wiki/brands/looki.md",
+      "pages": [
+        "wiki/brands/looki.md",
+        "wiki/categories/low-interruption-life-recording.md",
+        "wiki/ideas/occasion-card-product-outline.md",
+        "wiki/shopify/scenario-proof-feedback-page.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-b36cedd4c78cf260b3ff": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-b36cedd4c78cf260b3ff.md",
+      "identity": "https://useit.im/",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/",
+        "title": "UseIt 官网｜场景、制作流程与 Gallery",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "读取公开页面文字，未测试交互演示、生成能力或实物成品；未登录 Studio。"
+        ],
+        "capture": "中文摘记（非全文快照）：首页将用途分为 DIY、品牌配套设计、送给特定对象三类；以局部编辑和同风格套组展示修改过程；生产环节展示 3D 预览、切割线与白墨层；Gallery 介绍以他人作品替换文字、照片的复用方式。主要入口指向 studio.useit.im。",
+        "claims": [
+          {
+            "text": "用途分为 DIY、品牌配套设计和个人赠礼。",
+            "kind": "observed_feature",
+            "locator": "首页 / What you can make"
+          },
+          {
+            "text": "页面演示局部编辑、同风格套组，以及生产前的预览和文件准备。",
+            "kind": "observed_feature",
+            "locator": "首页 / Change a detail 与 Ready for production"
+          },
+          {
+            "text": "官网称 Gallery 作品可以供他人制作自己的版本。",
+            "kind": "official_claim",
+            "locator": "首页 / Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "5f23ad9ef0a11ab87f6127303b00a636851704596f981aeb2743072bb2a07df6"
+    },
+    "s-69b47df56cdc19ff86f4": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-69b47df56cdc19ff86f4.md",
+      "identity": "https://useit.im/terms-of-service",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/terms-of-service",
+        "title": "UseIt 使用条款｜收费、实物订单与模板用途",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "仅为平台条款陈述，未完成付费或下单；具体价格、配送地区与订单条件未核验；不是经营数据。"
+        ],
+        "capture": "中文摘记：第 6 节称按设计定制实物，由平台及生产伙伴制作，付款后开始生产，价格和运输信息在付款前展示。第 7 节描述付费订阅、实物订单和积分用途，积分可随方案或额度发放；本次未见具体价目。第 4 节允许 Gallery 模板免费或按积分复用，目前不向创作者支付收入；默认复用范围是个人用途，除非作品页另有说明。",
+        "claims": [
+          {
+            "text": "条款描述软件订阅和实物订单收费，积分用于生成及付费模板复用。",
+            "kind": "official_claim",
+            "locator": "Terms / §7 Fees, credits and subscriptions"
+          },
+          {
+            "text": "定制实物订单由 UseIt 与生产伙伴制作，付款后开始生产。",
+            "kind": "official_claim",
+            "locator": "Terms / §6 Physical product orders"
+          },
+          {
+            "text": "Gallery 模板可设置积分费用，目前不向创作者付款；默认复用范围为个人用途，作品页可另行说明。",
+            "kind": "official_claim",
+            "locator": "Terms / §4 The Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "526dad9f7bbcafb6f052c77255678273dc955a40cea0d11dd110550d45b05ed4"
+    },
+    "s-ce976945b41a86d8bb06": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-ce976945b41a86d8bb06.md",
+      "identity": "https://useit.im/privacy-policy",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/privacy-policy",
+        "title": "UseIt 隐私说明｜订单链路与公开内容",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "平台自述，未审计实际数据处理、合作伙伴或履约过程。"
+        ],
+        "capture": "中文摘记：第 2、5 节说明订单相关信息分别交给生产伙伴、承运商和支付处理方，支付方为 Stripe。第 6 节区分 Gallery 的公开设计资料、公开互动与保持私密的项目聊天。第 1 节列明服务提供者为 USEIT PTE. LTD.。",
+        "claims": [
+          {
+            "text": "隐私说明将生产伙伴、承运商和 Stripe 列入订单及支付处理链路。",
+            "kind": "official_claim",
+            "locator": "Privacy / §2 Information we collect；§5 How we share information"
+          },
+          {
+            "text": "Gallery 发布资料和互动公开，项目聊天保持私密。",
+            "kind": "official_claim",
+            "locator": "Privacy / §6 Public content in the Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "d290edcb46a475190a75f5d552190d1e68951ff8fd6716160341bcf92933a0f1"
+    },
+    "s-f57c44ae755875a06a7e": {
+      "brand": "looki",
+      "path": "raw/sources/looki/s-f57c44ae755875a06a7e.md",
+      "identity": "https://www.looki.ai/",
+      "source": {
+        "type": "official_site",
+        "title": "Looki 官网｜生活结果、购买与持续联系入口",
+        "publisher": "Looki",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "只读公开文字与链接，未测试生成效果、注册、付款或邮件；精选证言不代表全部用户。"
+        ],
+        "capture": "首页先呈现生活漫画、每日回顾、可检索记忆，再展开会议、生活习惯和自动vlog场景。页面有媒体引语、精选用户故事、Ambassadors/Testimonials分组，以及Order Now和邮件更新、优惠、测试机会入口。浏览器读取页脚确认官方Instagram、TikTok、Facebook、X、YouTube和Discord链接；官网也链接Spencer Scott Pugh的六个月回访视频。",
+        "claims": [
+          {
+            "text": "首页围绕漫画、每日回顾、可检索记忆展示使用结果。",
+            "kind": "observed_feature",
+            "locator": "Personal, because it starts with your daily life"
+          },
+          {
+            "text": "官网提供购买与邮件更新、测试机会入口，并回链官方社交账号和Discord。",
+            "kind": "observed_feature",
+            "locator": "Order Now；Early update；Follow us"
+          }
+        ],
+        "url": "https://www.looki.ai/"
+      },
+      "capture_sha256": "4a020d7b99e527e9ca80ce2adcc6641375afa9b946fbbd81c308c33b60f7c251"
+    },
+    "s-b800db7eb954c74c42c4": {
+      "brand": "looki",
+      "path": "raw/sources/looki/s-b800db7eb954c74c42c4.md",
+      "identity": "https://www.looki.ai/products/looki-l1",
+      "source": {
+        "type": "official_site",
+        "title": "Looki L1 商品页｜价格、使用边界与购买顾虑",
+        "publisher": "Looki",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "价格与服务方案为当日页面陈述；未下单、核验售后适用条件或审计评价真实性。"
+        ],
+        "capture": "美元页面显示硬件249美元、32克；搭配App把间隔采集内容整理为vlog、漫画与回顾。FAQ说明主要采用间隔记录，并非全天连续录像；标准服务目前无强制订阅，未来可能有可选高级层。购买区附近展示30天退货、一年保修；评价模块提示部分评价来自商家合并的相关商品。",
+        "claims": [
+          {
+            "text": "页面显示249美元、标准服务目前无强制订阅，未来可能增加可选高级层。",
+            "kind": "official_claim",
+            "locator": "Price；FAQ / Are there any subscriptions or hidden costs?"
+          },
+          {
+            "text": "购买区旁展示退货与保修；FAQ解释间隔采集和连续拍摄的区别。",
+            "kind": "observed_feature",
+            "locator": "Add to cart下方；FAQ / Can Looki L1 record video continuously all day?"
+          }
+        ],
+        "url": "https://www.looki.ai/products/looki-l1"
+      },
+      "capture_sha256": "f31faf623c71d0b209ee8c5d3a7597b4ab3bf204b001858e36e4d0950c8b77d3"
+    },
+    "s-d9ce2ce4a24f78363d39": {
+      "brand": "looki",
+      "path": "raw/sources/looki/s-d9ce2ce4a24f78363d39.md",
+      "identity": "https://www.looki.ai/pages/privacy",
+      "source": {
+        "type": "official_site",
+        "title": "Looki 隐私说明｜让顾虑成为可读信息",
+        "publisher": "Looki",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "仅为品牌声明，未取得审计报告、检查硬件固件或独立验证安全性。"
+        ],
+        "capture": "品牌称个人内容不用于训练AI模型；须主动开启摄录，声光指示不能手动关闭；说明云端传输及静态加密，并称完成SOC 2 Type I审计。这里记录它如何解释隐私，不验证这些保障的实际实施。",
+        "claims": [
+          {
+            "text": "页面解释主动开启、声光提示与数据不用于AI训练，并宣称完成SOC 2 Type I审计。",
+            "kind": "official_claim",
+            "locator": "Clear Signals, Clear Boundaries；A New Milestone"
+          }
+        ],
+        "url": "https://www.looki.ai/pages/privacy"
+      },
+      "capture_sha256": "33b3f8e9561efe5c59c8c9afbd5b3a4295887d3c22eff566e9ab0efc4bd7090d"
+    }
+  },
+  "events": [
+    {
+      "id": "e-2d9ace02d3fc1e5dcd74",
+      "source_id": "s-69b47df56cdc19ff86f4",
+      "source_ids": [
+        "s-69b47df56cdc19ff86f4",
+        "s-b36cedd4c78cf260b3ff",
+        "s-ce976945b41a86d8bb06"
+      ],
+      "date": "2026-10-24",
+      "type": "learning",
+      "pages": {
+        "wiki/brands/useit.md": "b2518a94a1a2a41164fad23f84194b2d6c3bf1a64c4da6fc213e7492fe46a405",
+        "wiki/categories/personalized-physical-goods.md": "9ccd06b3be44ffc6e7125a3f2a1d0fe8a7aa718339dff625a1d045cce894c09f",
+        "wiki/growth/reusable-examples-to-personalization.md": "74f407e6b298969c57081eede1b2f8ee64fe61755afa9b56b51311adcc1ab2df",
+        "wiki/ideas/occasion-card-product-outline.md": "320dffc345da3186871a5d02f5244cd09244837e0be43a0448bfbffb5ff3213a"
+      }
+    },
+    {
+      "id": "e-5894f33563494c2191ee",
+      "source_id": "s-b800db7eb954c74c42c4",
+      "source_ids": [
+        "s-b800db7eb954c74c42c4",
+        "s-d9ce2ce4a24f78363d39",
+        "s-f57c44ae755875a06a7e"
+      ],
+      "date": "2026-10-24",
+      "type": "learning",
+      "pages": {
+        "wiki/brands/looki.md": "251bdf91a0046a9c8ef1f3c52d4bedb4f51dfd4b4619dd96feb1e1727050f3eb",
+        "wiki/shopify/scenario-proof-feedback-page.md": "f8039520c82af454c21b0c57b9bdca07cdccdb616244f26acb875386d57188d6"
+      }
+    },
+    {
+      "id": "e-2c51bb573c339bf8b52d",
+      "source_id": "s-b800db7eb954c74c42c4",
+      "source_ids": [
+        "s-b800db7eb954c74c42c4",
+        "s-d9ce2ce4a24f78363d39",
+        "s-f57c44ae755875a06a7e"
+      ],
+      "date": "2026-10-24",
+      "type": "learning_revision",
+      "pages": {
+        "wiki/brands/looki.md": "cc8ebcbd79ff7daa22fa77703b467e0033b6e2b8488cd2002029757ee749e3d3",
+        "wiki/categories/low-interruption-life-recording.md": "a335e86567226a2ded3cd1158ded4511bf08d5ebddb0a221243fdbe1bb5535de",
+        "wiki/ideas/occasion-card-product-outline.md": "4e573a3cd3d3b8752c4c8b21e8a541a39a860e491f857f87bf71aa51579f1fe0"
+      },
+      "knowledge_reviews": {
+        "categories": {
+          "action": "update",
+          "reason": "由记录结果、间隔采集与隐私控制，提炼用户任务和品类取舍；未据此断言需求成立。",
+          "paths": [
+            "wiki/categories/low-interruption-life-recording.md"
+          ]
+        },
+        "ideas": {
+          "action": "update",
+          "reason": "为现有场景卡片加入结果示例、购买疑问与反馈问题，保留未验证和交付待定。",
+          "paths": [
+            "wiki/ideas/occasion-card-product-outline.md"
+          ]
+        },
+        "shopify": {
+          "action": "retain",
+          "reason": "已有结果、顾虑与反馈页面方法覆盖该做法，本轮应用到想法，不重复改写方法。",
+          "paths": [
+            "wiki/shopify/scenario-proof-feedback-page.md"
+          ]
+        },
+        "growth": {
+          "action": "skip",
+          "reason": "本轮只整理已保存的三份官网材料，没有新的站外营销证据。",
+          "paths": []
+        }
+      }
+    }
+  ]
+}

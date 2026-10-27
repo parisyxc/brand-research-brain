@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn from a brand website"
+  short_description: "Understand a business and learn three practices"
+  default_prompt: "Use $brand-intake to study this website, teach me three concrete practices, and save linked Markdown learning plus a concise Chinese HTML digest in my Brain."

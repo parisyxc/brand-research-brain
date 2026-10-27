@@ -1,0 +1,199 @@
+{
+  "brand": {
+    "id": "libernovo",
+    "name": "LiberNovo",
+    "aliases": []
+  },
+  "sources": [
+    {
+      "type": "official_site",
+      "url": "https://libernovo.com/",
+      "title": "LiberNovo 官网首页：产品、场景与发现入口",
+      "publisher": "LiberNovo",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "有范围的首页文本访问；未观看视频、验证动态交互或完成购买。",
+        "价格为页面起价，配置、地区、税费与结账价格未核验。",
+        "未打开联盟、推荐、经销、团购详情；入口不证明执行规模或获客效果。",
+        "众筹、奖项和精选评价为品牌呈现，未独立验证；不代表收入、利润或典型体验。"
+      ],
+      "capture": "2026-10-24 页面文本观察。Find Your Fit 展示 Omni 与 Maxis，Omni SE/Gen/Pro 起价分别为 USD 788/1,019/1,109，促销及配置会变动。The Right Fit for Every Creator 展示创作相关场景。Explore 列出联盟、推荐及经销入口。See What We’ve Been Up To 将 Kickstarter 募资超过 US$10M 标为 2025 年 6 月里程碑；这里只记录品牌自述。",
+      "claims": [
+        {
+          "text": "页面展示 Omni、Maxis 两系列及 Omni SE/Gen/Pro 的上述美元起价。",
+          "kind": "observed_feature",
+          "locator": "Find Your Fit: Dynamic Support for Every Build；网页行171–265"
+        },
+        {
+          "text": "页面展示创作者场景、联盟、推荐、经销和团购入口。",
+          "kind": "observed_feature",
+          "locator": "The Right Fit for Every Creator；Explore / Partnerships / Programs"
+        },
+        {
+          "text": "品牌将 Kickstarter 募资超过 US$10M 列为2025年6月里程碑。",
+          "kind": "official_claim",
+          "locator": "See What We’ve Been Up To；网页行396–403"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://libernovo.com/pages/libernovo-omni-dynamic-ergonomic-chair",
+      "title": "LiberNovo Omni 系列介绍：支撑机制与版本边界",
+      "publisher": "LiberNovo",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "机制为品牌说明，未实测舒适性、噪声、耐久、热感或身体效果。",
+        "文本抓取未保留规格对照表的所有勾选图形，不能把每个栏目都解释成所有版本均配备。",
+        "未读取逐款SKU规格或保修条款；首页评价提及四档、本页写五档，可能涉及代际差异，待核对。"
+      ],
+      "capture": "Get the highlights 描述随动支撑、105°–160°五档后仰及腰部伸展。注释明确 SE 为手动且无电池，Pro 配电动通风。Electric Lumbar Support 描述电动腰部塑形；Dynamic support system 分别说明头枕、靠背、座垫和扶手的随动作用。Ergonomic Design for Today’s Gamers, Creators & Hybrid Workers 呈现混合使用场景。",
+      "claims": [
+        {
+          "text": "品牌描述头枕、靠背、座垫与扶手随身体动作提供支撑，并展示电动腰部支撑及伸展。",
+          "kind": "official_claim",
+          "locator": "Get the highlights；Electric Lumbar Support；Dynamic support system"
+        },
+        {
+          "text": "页面注释写明 SE 手动无电池、Pro 配电动通风。",
+          "kind": "observed_feature",
+          "locator": "Get the highlights，SE/Pro脚注；网页行166–189"
+        },
+        {
+          "text": "页面说明105°–160°五档后仰。",
+          "kind": "official_claim",
+          "locator": "Recline Your Way；网页行493–523"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://libernovo.com/pages/about-us",
+      "title": "LiberNovo About Us：起源叙述与产品演进",
+      "publisher": "LiberNovo",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "创始背景、研发与专利数量为品牌自述，未独立核验。",
+        "评测为官网选择的摘录，未阅读原作或核验赞助、佣金关系，不能作为独立评测结论。",
+        "时间轴文本存在重复日期，不能可靠地把每个2026日期与每一款产品逐一对应；未确认公司成立年份。"
+      ],
+      "capture": "How We Got Started 将品牌起点描述为创始人 Yanle 在 Narwal 的技术经历及其久坐困扰。Meet Our Milestones 页面序列从2025.06延伸至2026年，列出 Omni、Moss Green、Omni Pro、Omni SE、Maxis。Hear From Us 摘录 @Ahnestly、@BTODtv 和一位医生的评价；未打开原始评价。",
+      "claims": [
+        {
+          "text": "品牌将创始人的技术背景与自身久坐问题作为起源故事。",
+          "kind": "official_claim",
+          "locator": "How We Got Started；网页行145–149"
+        },
+        {
+          "text": "页面以时间轴及产品介绍呈现从Omni到多个版本和Maxis的扩展。",
+          "kind": "observed_feature",
+          "locator": "Meet Our Milestones；网页行302–336"
+        },
+        {
+          "text": "页面展示署名评测者的评价摘录。",
+          "kind": "observed_feature",
+          "locator": "Hear From Us；网页行280–299"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://libernovo.com/policies/refund-policy",
+      "title": "LiberNovo 退货政策：试用承诺的条件",
+      "publisher": "LiberNovo",
+      "published_at": "2026-10-08",
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "政策页面不证明实际售后履约；未发起退货或联系品牌。",
+        "本次读取为.com英文条款，不能自动适用于其他地区站、经销商或众筹订单。",
+        "30天试用不等于无条件零成本；其他排除项须以完整政策为准。"
+      ],
+      "capture": "政策标注2026-10-08更新：交付后30天内可申请退货，须近新、原包装并退齐附件与赠品，需RMA；品牌提供预付退货标签。美国补购纸箱约USD29。状态或缺件不符合条件可扣15%补货费；如有原始运费则不退。第三方购买等情形被排除。仅记录公布条款，未测试执行。",
+      "claims": [
+        {
+          "text": "公布政策允许交付后30天内申请退货并承担退货运费，但需满足近新、原包装及附件完整等条件。",
+          "kind": "observed_feature",
+          "locator": "Overview；Eligibility for Returns；Return Process；网页行149–176"
+        },
+        {
+          "text": "无原包装时美国补购纸箱约USD29；不满足状态或缺件条件可扣15%；第三方购买被排除。",
+          "kind": "observed_feature",
+          "locator": "Packaging Requirements；Refunds；Non-Returnable Items；网页行169–191"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://www.hermanmiller.com/en_us/products/seating/office-chairs/aeron-chair/specs/",
+      "title": "对照来源：Herman Miller Aeron 官方规格页",
+      "publisher": "Herman Miller",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "这是竞争品牌的一手营销与规格说明，不是独立对比测试。",
+        "未核验具体配置价格、当地展厅库存或保修例外，不判断其售后一定优于LiberNovo。",
+        "只作为LiberNovo案例的竞争对照，不将Herman Miller的主张归属于LiberNovo。"
+      ],
+      "capture": "Aeron / Features：Harmonic 2 Tilt 被说明为使椅子跟随人体动作；PostureFit SL为骶部/腰部支撑，另有A/B/C尺寸。Warranty 标注12年、三班制且有例外；页面提供经销商与展厅查找入口。用于对照品牌叙述与可见信任资产，未进行实物比较。",
+      "claims": [
+        {
+          "text": "Aeron官方描述Harmonic 2 Tilt使椅子跟随用户动作。",
+          "kind": "official_claim",
+          "locator": "Features / Harmonic 2 Tilt；网页行343–347"
+        },
+        {
+          "text": "规格页展示三种尺寸、12年三班制保修且有例外，并提供经销商与展厅入口。",
+          "kind": "observed_feature",
+          "locator": "Features / Three Sizes；Warranty；Find a dealer/showroom；网页行349–352、434–453"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://www.steelcase.com/products/office-chairs/gesture/",
+      "title": "对照来源：Steelcase Gesture 官方产品页",
+      "publisher": "Steelcase",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "官方说明不等于独立性能验证；没有在同一受试者、设置或任务下比较。",
+        "未核验价格、地区售后、销量或市场份额。",
+        "竞争对照用于限制独占差异化推断，不为LiberNovo建立已证明的性能优势。"
+      ],
+      "capture": "Gesture / Designed for Movement 与 Back Support 描述3D LiveBack顺应脊柱动作。Manual Adjustments 说明座高/座深、张力和后仰限位调节；Most Adjustable Arms 描述360度扶手。页面呈现多设备使用场景。这里只比较公开机制叙述，不推导产品胜负。",
+      "claims": [
+        {
+          "text": "Steelcase描述Gesture的3D LiveBack跟随脊柱动作，并以多姿势、多设备为使用场景。",
+          "kind": "official_claim",
+          "locator": "Designed for Movement / Connection；Back Support；网页行97–109、123–125"
+        },
+        {
+          "text": "页面展示手动座高、座深、张力及后仰限位调节和360度扶手说明。",
+          "kind": "observed_feature",
+          "locator": "Manual Adjustments；Most Adjustable Arms；网页行128–135"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "path": "wiki/brands/libernovo.md",
+      "content": "# LiberNovo：把技术卖点变成用户能理解的购买理由\n\n学习日期：2026-10-24 · 重点：选品洞察、产品页、内容与信任\n\n## 这个生意是什么\n\nLiberNovo 面向长时间在桌前工作、创作或游戏的人销售人体工学椅。官网以 Omni、Maxis 及不同版本组织产品，用“随身体动作提供支撑”解释产品价值，并引导访客选款和购买。[首页][home]、[Omni 产品介绍][product]。\n\n**我的理解：**它试图把“椅子有什么技术”翻译成“工作、后仰、切换姿势时，椅子如何配合我”。这是对官网表达的解读，不代表已证实的购买动机或增长原因。现有材料没有成本、利润或用户留存数据，也没有核验网站是否使用 Shopify。\n\n## 三个值得学的具体做法\n\n### 1. 从使用动作解释功能，而不是只列技术名词\n\n**看到什么：**Omni 页把头枕、靠背、座垫和扶手的支撑机制分开说明，并放进工作、创作、游戏等使用场景。[产品页：Dynamic support system][product]。\n\n**为什么值得学：**技术复杂的产品，需要让用户先理解“在我的生活中有什么用”。用于自己的 Shopify 产品页时，可以先写一个具体场景，再展示产品如何解决，最后补规格。页面这样组织是否提高转化，仍需实际测试。\n\n**怎么借用：**挑一个候选产品，写出“什么时候遇到问题 → 产品做了什么 → 用户能观察到什么变化”三句话。若写不清，就继续研究痛点，不急着堆功能。\n\n### 2. 多版本产品，要把选款差异讲清楚\n\n**看到什么：**首页区分系列和版本；产品页脚注明确 SE 是手动、无电池，Pro 配电动通风。[首页：Find Your Fit][home]、[产品页：SE/Pro 注释][product]。\n\n**为什么值得学：**系列名相近时，消费者需要知道“我为什么选这一款”。对 Shopify 来说，产品集合页与产品页可以围绕实际选择条件组织，而不是只重复型号和规格。\n\n**怎么借用：**如果未来有多个 SKU，就做一张短选款表：适合谁、关键差异、需要接受的取舍。还没有产品线时，把这个方法留作建站参考。当前抓取缺少完整规格表图形，不照搬 LiberNovo 的逐款参数。\n\n### 3. 把信任信息放进购买前的问题里\n\n**看到什么：**About 页展示起源故事和署名评价摘录，官网有创作者与推荐入口；退货政策说明试用条件、包装要求及可能的费用。[About][about]、[首页][home]、[退货政策][returns]。\n\n**为什么值得学：**内容既可以吸引注意，也可以回答“为什么信任、是否适合我、买错怎么办”。可以把真实演示、可追溯评价和清楚的 FAQ 放在自己的购买路径里；入口存在并不证明这些渠道带来了销量。\n\n**怎么借用：**列出候选顾客购买前最担心的三个问题，逐一决定用演示、评价还是政策来回答。没有真实评价时保留待补位置，不编造背书。\n\n## 对我当前 Shopify 实践的启发\n\n现在最值得借用的是“从具体使用情境找切口”，并不意味着要进入椅子赛道。可以去观察体积更小的候选产品：它是否也有一个容易演示、反复发生的麻烦？\n\n**下一步只做一件事：**选一个感兴趣的候选产品，完成一张“场景 → 功能 → 可见变化”的小卡片，写回自己的选品笔记。\n\n## 留在 Brain 里的方法\n\n[[wiki/shopify/explain-features-through-use|产品页：先讲使用场景，再讲功能]] 可在之后写产品页时复用。品类与产品想法先留在本案例；当前没有足够材料支持自己的新选品方向。\n\n本次未研究搜索排名、关键词或自然流量，因此暂不形成 SEO 结论。对照来源也在讲随动支撑，不能把它直接当成 LiberNovo 独有的技术优势。以下为已有材料的再整理，没有重新访问官网或实测产品。\n\n## 来源\n\n{{sources}}\n\n[home]: https://libernovo.com/\n[product]: https://libernovo.com/pages/libernovo-omni-dynamic-ergonomic-chair\n[about]: https://libernovo.com/pages/about-us\n[returns]: https://libernovo.com/policies/refund-policy\n"
+    },
+    {
+      "path": "wiki/shopify/explain-features-through-use.md",
+      "content": "# 产品页：先讲使用场景，再讲功能\n\n当产品功能不容易被理解时，先用一个具体场景解释用途，再展示机制与必要规格。\n\nLiberNovo 的 Omni 页把随动支撑拆到头枕、靠背、座垫和扶手，并放入工作、创作、游戏情境。这是页面表达观察，不是提高转化的实验证据。\n\n**用于自己的 Shopify：**写一张“场景 → 功能 → 可见变化”的小卡片，再把它变成产品页一个区块。若说不清用户何时需要这个功能，先回到选品洞察；不把营销演示当作性能测试。\n\n案例：[[wiki/brands/libernovo|LiberNovo 学习笔记]]。\n\n来源：{{source:1}} — Dynamic support system。基于2026-10-24保存的部分页面记录。\n"
+    }
+  ],
+  "summary": "学习用场景解释功能、讲清版本差异，以及在购买前回答信任问题。",
+  "next_action": "下一步：挑一个候选产品，写一张“场景 → 功能 → 可见变化”的小卡片。"
+}

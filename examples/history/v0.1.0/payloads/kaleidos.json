@@ -1,0 +1,33 @@
+{
+  "brand": {
+    "id": "kaleidos",
+    "name": "Kaleidos",
+    "aliases": []
+  },
+  "source": {
+    "type": "clip",
+    "url": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+    "title": "Kaleidos — supplied incomplete clip",
+    "publisher": "剪藏元数据标注 PangJing Media；未独立核验",
+    "published_at": null,
+    "observed_at": "2026-10-23",
+    "access": "partial",
+    "limitations": [
+      "仅使用用户提供的 Markdown；未联网补充或打开原文链接。",
+      "文件含重复元数据和模板；Original Content 无完整文章，只有一条重复的解释性句子。",
+      "该句可能是剪藏者的笔记，也可能是摘录；作者归属不明。",
+      "标题中的日收百万没有币种、日期、口径或正文证据，不能验证。"
+    ],
+    "capture": "剪藏标题为“浙大学霸离开欧莱雅，把一盘眼影卖到海外，日收百万”，元数据指向微信并标注 PangJing Media，发布日期为空。正文重复模板，唯一实质内容是一条解释性句子：Kaleidos 早期把产品变为内容，由创作者解释产品；该方法如今被许多品牌采用。句子在 Why I Saved This 和 Original Content 重复，不能确定作者，也没有完整文章支持。",
+    "claims": []
+  },
+  "pages": [
+    {
+      "path": "wiki/brands/kaleidos.md",
+      "content": "# Kaleidos\n\n## 来源范围与完整性\n只处理所提供的 Markdown clip，没有联网补充或读取其微信链接。文件存在重复 frontmatter 和模板；完整文章正文缺失，最后只有一条与笔记区域重复的解释性句子。元数据标注 PangJing Media，但无法据此确认句子的作者或其是否来自原文。发布日期未知。{{source}} — frontmatter；Why I Saved This；Original Content。\n\n## 可用证据\n**保存的摘录线索，作者归属不明：**材料提出产品成为内容、创作者解释产品的观点，并认为这种方法如今已普及。因原文缺失，暂归为未核验摘录，不归为已核实媒体报道。{{source}} — nested Why I Saved This；末尾 Original Content。\n\n**未知：**标题提到“日收百万”，但没有币种、时期、收入定义、计算方法或正文证明。该标题不能作为营收、利润、订单量或持续业绩的事实。{{source}} — 标题；Original Content 缺失。\n\n## 用户任务与产品分析\n**未知：**这份 clip 没有足够的使用场景、买家反馈或具体产品机制来定义用户任务，也不能验证性能和差异化。不能凭眼影标题认定市场需求或类别机会。\n\n**假设：**可以研究创作者的解释是否帮助观众理解某种具体妆效，以及它是否影响购买决策；现有材料只提供研究方向，没有因果证据。\n\n## 渠道与操作约束\n内容与创作者只是待查线索；没有平台投放、转化率、成本、供应链、物流、复购或盈利数据。该 Brain 的市场与运输条件未指定，继续保留未知。\n\n## 决策\n**Study。**把有限笔记保存为线索，不做成功案例验证，也不由空缺正文生成完整品牌或内容方案。\n\n## 下一步\n请提供可读取的完整文章或明确标注作者的摘录；随后核对“日收百万”的日期、币种和计量口径，再寻找一个具体产品与创作者内容的配对证据。\n"
+    }
+  ],
+  "decision": "Study",
+  "summary": "保存不完整剪藏，保留重复模板、作者与业绩口径的限制。",
+  "next_action": "取得完整文章或明确作者的摘录，核对业绩口径与具体产品内容证据。"
+}

@@ -1,0 +1,25 @@
+name: Validate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/validate_repo.py
+      - run: python scripts/replay_examples.py
+      - run: python scripts/replay_learning.py
+      - run: python scripts/replay_growth.py
+      - run: python scripts/replay_reconciliation.py
+      - run: python scripts/package.py

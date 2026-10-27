@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "brand-research-brain",
+  "version": "0.6.0",
+  "description": "Learn from brands, build linked Shopify knowledge, and share readable HTML with optional detailed growth chapters.",
+  "author": {
+    "name": "Paris Young"
+  },
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "learning",
+    "brand-research",
+    "obsidian",
+    "llm-wiki"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/brain-init/SKILL.md",
+      "interface": {
+        "displayName": "Brand Research Brain",
+        "shortDescription": "Shopify research and learning",
+        "longDescription": "Understand a business, learn concrete practices and accumulate linked Shopify knowledge. Share readable HTML with concise case learning and full growth chapters when requested. Existing research can be presented without new data-provider calls.",
+        "developerName": "Paris Young",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Create my Shopify research and learning Brain.",
+          "Study this website: explain the business, teach me three practices, and save Markdown learning plus a concise Chinese HTML digest.",
+          "Research this brand's social media, creators and SEO using public sources, then save concise growth learning.",
+          "Present this completed growth study in HTML, including its stages, concrete examples and lessons."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "brand": {
+    "id": "useit",
+    "name": "UseIt",
+    "aliases": [
+      "USEIT PTE. LTD.",
+      "UseIt AI",
+      "UseIt Studio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_site",
+      "url": "https://useit.im/",
+      "title": "UseIt 官网｜场景、制作流程与 Gallery",
+      "publisher": "UseIt / USEIT PTE. LTD.",
+      "published_at": null,
+      "observed_at": "2026-10-24",
+      "access": "partial",
+      "limitations": [
+        "读取公开页面文字，未测试交互演示、生成能力或实物成品；未登录 Studio。"
+      ],
+      "capture": "中文摘记（非全文快照）：首页将用途分为 DIY、品牌配套设计、送给特定对象三类；以局部编辑和同风格套组展示修改过程；生产环节展示 3D 预览、切割线与白墨层；Gallery 介绍以他人作品替换文字、照片的复用方式。主要入口指向 studio.useit.im。",
+      "claims": [
+        {
+          "text": "用途分为 DIY、品牌配套设计和个人赠礼。",
+          "kind": "observed_feature",
+          "locator": "首页 / What you can make"
+        },
+        {
+          "text": "页面演示局部编辑、同风格套组，以及生产前的预览和文件准备。",
+          "kind": "observed_feature",
+          "locator": "首页 / Change a detail 与 Ready for production"
+        },
+        {
+          "text": "官网称 Gallery 作品可以供他人制作自己的版本。",
+          "kind": "official_claim",
+          "locator": "首页 / Gallery"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://useit.im/terms-of-service",
+      "title": "UseIt 使用条款｜收费、实物订单与模板用途",
+      "publisher": "UseIt / USEIT PTE. LTD.",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-24",
+      "access": "complete",
+      "limitations": [
+        "仅为平台条款陈述，未完成付费或下单；具体价格、配送地区与订单条件未核验；不是经营数据。"
+      ],
+      "capture": "中文摘记：第 6 节称按设计定制实物，由平台及生产伙伴制作，付款后开始生产，价格和运输信息在付款前展示。第 7 节描述付费订阅、实物订单和积分用途，积分可随方案或额度发放；本次未见具体价目。第 4 节允许 Gallery 模板免费或按积分复用，目前不向创作者支付收入；默认复用范围是个人用途，除非作品页另有说明。",
+      "claims": [
+        {
+          "text": "条款描述软件订阅和实物订单收费，积分用于生成及付费模板复用。",
+          "kind": "official_claim",
+          "locator": "Terms / §7 Fees, credits and subscriptions"
+        },
+        {
+          "text": "定制实物订单由 UseIt 与生产伙伴制作，付款后开始生产。",
+          "kind": "official_claim",
+          "locator": "Terms / §6 Physical product orders"
+        },
+        {
+          "text": "Gallery 模板可设置积分费用，目前不向创作者付款；默认复用范围为个人用途，作品页可另行说明。",
+          "kind": "official_claim",
+          "locator": "Terms / §4 The Gallery"
+        }
+      ]
+    },
+    {
+      "type": "official_site",
+      "url": "https://useit.im/privacy-policy",
+      "title": "UseIt 隐私说明｜订单链路与公开内容",
+      "publisher": "UseIt / USEIT PTE. LTD.",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-24",
+      "access": "complete",
+      "limitations": [
+        "平台自述，未审计实际数据处理、合作伙伴或履约过程。"
+      ],
+      "capture": "中文摘记：第 2、5 节说明订单相关信息分别交给生产伙伴、承运商和支付处理方，支付方为 Stripe。第 6 节区分 Gallery 的公开设计资料、公开互动与保持私密的项目聊天。第 1 节列明服务提供者为 USEIT PTE. LTD.。",
+      "claims": [
+        {
+          "text": "隐私说明将生产伙伴、承运商和 Stripe 列入订单及支付处理链路。",
+          "kind": "official_claim",
+          "locator": "Privacy / §2 Information we collect；§5 How we share information"
+        },
+        {
+          "text": "Gallery 发布资料和互动公开，项目聊天保持私密。",
+          "kind": "official_claim",
+          "locator": "Privacy / §6 Public content in the Gallery"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "path": "wiki/brands/useit.md",
+      "content": "# UseIt：把设计意图变成可制作的实物\n\n研究日期：2026-10-24。用于自己的 Shopify 选品与建站学习。\n\n## 这个生意怎么运转\n\n**官方定位与页面观察：**UseIt 提供面向实体物品的 AI 设计工作室。首页用 DIY、品牌配套、个人赠礼组织用途，服务想自己动手的人、小品牌和送礼者；这些是官网面向的人群，不是已验证的付费客群。[首页](https://useit.im/)\n\n**我的理解：**它在连接“我有一个想法”和“这个设计能被做出来”。用户需要的不止一张好看的图，还包括可修改、可确认和可交付。它的产品边界覆盖设计工具与定制制作服务，不能仅按普通礼品店理解。\n\n**怎么收费：**条款描述订阅和实物订单收费；积分承载生成与付费模板复用，并可随方案或额度发放。这说明软件使用和实物交易是两类收费入口，不代表每项功能均已实测。定制订单由平台及生产伙伴制作，付款后启动。具体价格、利润和收入结构未知。[条款 §6–7](https://useit.im/terms-of-service)\n\n隐私说明补充了生产、承运和支付环节，因此其官方描述包含履约服务；这不等于已验证交付质量。[隐私说明 §2、§5](https://useit.im/privacy-policy)\n\n## 学三个具体做法\n\n### 1. 先给购买场景，再给产品入口\n\n**看到：**首页按自制、品牌配套、赠礼划分用途，而非只列工具能力。\n\n**为什么可能有用：**这是我的解释——访客可以先判断“它适不适合我要做的事”，减少理解成本，效果仍需验证。\n\n**我怎么用：**给候选 Shopify 品类写“谁／在什么时刻／要完成什么”的集合页说明。只有当不同场景确实影响选择时才拆分入口。延伸：[[wiki/categories/personalized-physical-goods|定制实物：从购买任务看品类]]。\n\n### 2. 把从设计到交付的疑问放在页面上解决\n\n**看到：**官网把局部修改、预览及生产文件准备串在同一叙事中。\n\n**为什么可能有用：**我的推断是，它回应了“改得准吗、做得出来吗”的顾虑；演示不能证明实际效果。\n\n**我怎么用：**定制商品页展示一张真实的修改前后示例，并说明确认稿、成品差异和交付内容。样品尚未制作时明确标注效果图，不把展示图当实拍。\n\n### 3. 让一份作品成为下一位用户的起点\n\n**看到：**Gallery 支持用现有设计制作自己的版本；隐私说明区分公开作品和私密聊天。\n\n**为什么可能有用：**我的推断是，可复用示例比空白输入框更容易启动创作，也能成为内容入口；没有证据证明它带来多少增长。\n\n**我怎么用：**用自有或明确获授权的原创设计制作“改名字就能用”的示例，逐个对应商品入口。详见[[wiki/growth/reusable-examples-to-personalization|从可复用示例到个性化入口]]。\n\n## 边界与我的下一步\n\n本次依据三份公开页面；Studio 入口未返回可读正文，未登录、试用、核验付款流程或配送范围。用户量、销量、获客成本、SEO 表现及是否使用 Shopify 均未知。**Gallery 默认复用范围是个人用途，且目前不向创作者付款；不能把它当成已开放商业授权或创作者分成的市场。**[条款 §4](https://useit.im/terms-of-service)\n\n下一步只做一张[[wiki/ideas/occasion-card-product-outline|原创场景卡片的 Shopify 商品页草稿]]：选一个送礼时刻，写清可改内容、确认方式与交付形式。\n\n## 来源记录\n\n以下为带定位的中文摘记，不是完整网页存档。\n\n- [[raw/sources/useit/s-b36cedd4c78cf260b3ff|UseIt 官网｜场景、制作流程与 Gallery]]\n- [[raw/sources/useit/s-69b47df56cdc19ff86f4|UseIt 使用条款｜收费、实物订单与模板用途]]\n- [[raw/sources/useit/s-ce976945b41a86d8bb06|UseIt 隐私说明｜订单链路与公开内容]]\n"
+    },
+    {
+      "path": "wiki/categories/personalized-physical-goods.md",
+      "content": "# 定制实物：从购买任务看品类\n\n来源案例：[[wiki/brands/useit|UseIt]]。记录日期：2026-10-24。\n\n## 从案例学到什么\n\nUseIt 首页把用途分成自制、品牌配套和赠礼。**我的解释：**同一种制作能力可以服务不同任务，但不同任务的选择标准未必相同。不要把“AI 定制”本身当成明确的购买需求。[首页 / What you can make](https://useit.im/)\n\n## 用于 Shopify 选品的三个问题\n\n以下是研究者的选品框架，尚未验证：\n\n| 购买任务 | 先弄清的需求 | 产品页应说清的取舍 |\n| --- | --- | --- |\n| 自己做点东西 | 想享受制作，还是只要成品？ | 数字文件与实物的区别、所需工具 |\n| 小品牌配套 | 是单件试用，还是持续补货？ | 一致性、可修改范围、起订与补单条件 |\n| 为一个人送礼 | 哪个时刻、送给谁、何时需要？ | 个性化程度、确认稿与交付时间 |\n\n这些是对自己候选品类的提问，不是 UseIt 已验证的用户画像，也不是对其实际供应能力的断言。\n\n## 什么时候用\n\n当一个商品有多种潜在受众、首页却很难写清楚时，先挑一个购买任务。数字模板、手作材料包、定制成品的交付责任不同，应分别说明；不能因为都能展示同一图案就混为一种产品。\n\n自己的第一份应用：[[wiki/ideas/occasion-card-product-outline|原创场景卡片商品页草稿]]；内容入口参考[[wiki/growth/reusable-examples-to-personalization|可复用示例]]。\n\n## 来源\n\n[[raw/sources/useit/s-b36cedd4c78cf260b3ff|UseIt 官网｜场景、制作流程与 Gallery]]\n"
+    },
+    {
+      "path": "wiki/growth/reusable-examples-to-personalization.md",
+      "content": "# 从可复用示例到个性化入口\n\n来源案例：[[wiki/brands/useit|UseIt]]。记录日期：2026-10-24。\n\n## 看到的机制\n\n官网介绍 Gallery 让人从已有作品开始制作自己的版本。条款补充免费或积分复用机制；隐私说明区分公开资料和私密聊天。[Gallery](https://useit.im/)；[条款 §4](https://useit.im/terms-of-service)；[隐私说明 §6](https://useit.im/privacy-policy)\n\n## 我的增长理解\n\n可复用示例 → 看见适合自己的用途 → 尝试修改 → 形成新示例，是一个可能的内容循环。这里观察到的是产品机制，尚不知道作品供给、复用率、分享量或获客效果，不能据此宣称网络效应已经成立。\n\n## 我可以怎样迁移到 Shopify\n\n以下为自己的待验证做法：\n\n1. 用一份自有原创设计，展示“原稿／替换名字后的效果”，让内容直接演示可改范围。\n2. 给这个示例配一个清晰的商品入口，写明买到数字文件还是实物，以及需要提交什么资料。\n3. 若后续邀请顾客展示作品，先取得明确同意，并把公开范围与订单私密资料分开说明。\n\n适合有明确个性化字段的商品。第一次学习只做一个示例，不急着搭社区。后续若上线，可再看浏览示例的人是否进入商品页、是否开始填写定制信息；目前没有这些数据。\n\n## 必须保留的案例边界\n\nUseIt 条款说 Gallery 默认复用范围为个人用途，且当前不向创作者支付费用。我们学习的是“从示例开始”的机制；自己的商店内容采用自有或明确获授权素材，不能推断某个 Gallery 作品可用于商业销售。\n\n应用草稿：[[wiki/ideas/occasion-card-product-outline|原创场景卡片]]。选品前提：[[wiki/categories/personalized-physical-goods|按购买任务界定品类]]。\n\n## 来源\n\n- [[raw/sources/useit/s-b36cedd4c78cf260b3ff|UseIt 官网｜场景、制作流程与 Gallery]]\n- [[raw/sources/useit/s-69b47df56cdc19ff86f4|UseIt 使用条款｜收费、实物订单与模板用途]]\n- [[raw/sources/useit/s-ce976945b41a86d8bb06|UseIt 隐私说明｜订单链路与公开内容]]\n"
+    },
+    {
+      "path": "wiki/ideas/occasion-card-product-outline.md",
+      "content": "# 原创场景卡片的 Shopify 商品页草稿\n\n来源案例：[[wiki/brands/useit|UseIt]]。记录日期：2026-10-24。状态：学习练习／未验证想法。\n\n## 想法从哪里来\n\nUseIt 将个人赠礼列为用途，并展示从设计走向制作的过程。我的联想是：先用一张自有原创卡片，练习把“送礼场景、可改内容、最终交付”讲清楚。[首页 / What you can make](https://useit.im/)\n\n这不是要复刻其软件，也不是购买模板或开店的决定。当前市场、预算、供应商和个人设计能力均未设定。\n\n## 一张可以开始填写的商品页\n\n以下均为自己的文案练习，不是已售商品或事实承诺。\n\n- **练习场景：**给即将搬家的朋友送一张祝福卡；这个场景只是暂选，需求尚未验证。\n- **标题草稿：**把新家的第一句祝福，写给 TA。\n- **可改字段：**收卡人名字、祝福语；图案采用自己的原创设计。\n- **演示图：**同一张原稿与改字后的对照，示意图清楚标注。\n- **交付形式：**先在数字文件与印刷成品中选一种，不能含糊地写“收到专属设计”。\n- **确认流程：**谁检查姓名和文字、何时确认、确认后还能改什么。\n- **购买前说明：**尺寸、包含内容、修改范围；若卖实物，再补生产时间、配送及样品差异。\n\n## 需要验证的假设\n\n买家愿意为这个送礼时刻付费；有限字段已经足够表达心意；价格能够覆盖设计修改与交付成本。现在没有证据支持这三点。若选实物，供应商能力与样品质量也是未知项。\n\n不默认拿 Gallery 模板商用；条款列明其默认个人用途范围，不能把模板可复用等同于可在 Shopify 销售。[条款 §4](https://useit.im/terms-of-service)\n\n## 这次只做一个小行动\n\n在上面的草稿里确定一种交付形式，再填写可改字段和确认规则，完成一张商品页文字稿即可。价格、交期等未核实项保留待定。\n\n继续阅读：[[wiki/categories/personalized-physical-goods|定制实物的品类取舍]]、[[wiki/growth/reusable-examples-to-personalization|示例如何连接商品入口]]。\n\n## 来源\n\n[[raw/sources/useit/s-b36cedd4c78cf260b3ff|UseIt 官网｜场景、制作流程与 Gallery]]\n[[raw/sources/useit/s-69b47df56cdc19ff86f4|UseIt 使用条款｜收费、实物订单与模板用途]]\n"
+    }
+  ],
+  "summary": "从 UseIt 官网学习场景入口、定制说明与可复用示例。",
+  "next_action": "写一张原创场景卡片的 Shopify 商品页草稿。"
+}

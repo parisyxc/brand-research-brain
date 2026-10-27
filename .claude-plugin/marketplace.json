@@ -1,0 +1,12 @@
+{
+  "name": "brand-research-brain",
+  "owner": {"name": "Paris Young"},
+  "metadata": {"description": "Shopify research and learning with Brand Research Brain."},
+  "plugins": [
+    {
+      "name": "brand-research-brain",
+      "source": "./plugins/brand-research-brain",
+      "description": "Learn from brands and accumulate linked Shopify research, ideas and readable HTML."
+    }
+  ]
+}

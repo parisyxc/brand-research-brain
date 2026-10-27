@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "id": "ruggable",
+    "name": "Ruggable",
+    "aliases": []
+  },
+  "source": {
+    "type": "article",
+    "url": "https://www.doublevconsulting.com/post/dtc%E5%93%81%E7%89%8C%E6%8B%86%E8%A7%A3-%E4%B8%93%E6%B3%A8%E7%BB%86%E5%88%86%E7%B1%BB%E7%9B%AE%E7%9A%84%E5%8F%AF%E6%9C%BA%E6%B4%97%E5%9C%B0%E6%AF%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%B9%B4%E9%94%802-5%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%9F",
+    "title": "DTC品牌拆解：可机洗地毯 Ruggable",
+    "publisher": "Double V Consulting; by wanyixu",
+    "published_at": "2025-08-05T05:10:48.534Z",
+    "observed_at": "2026-10-23",
+    "access": "complete",
+    "limitations": [
+      "Read the supplied Markdown article body only; linked images and external links were not independently inspected.",
+      "Article estimates do not include a measurement period or methodology for retail sales, traffic, or audience shares.",
+      "The owner interpretation appears under My Initial Notes; authorship is not identified in the supplied file."
+    ],
+    "capture": "Supplied Double V Consulting article (author wanyixu, 2025-08-05). Brand introduction reports an estimated US$250 million annual retail sales/revenue, 73% female consumers and US$89–900 prices; its inconsistent sales labels and absent period/methodology prevent financial verification. Product section describes a removable washable decorative cover over a non-slip pad, plus design collaborations and room/size variants. Marketing section describes lifestyle/UGC content and creator allowlisting, asserting better acquisition results without quantitative support. Traffic section lists 4.56 million monthly visits with no observation date or provider. My Initial Notes proposes a maintenance-pain + engineering + lifestyle-branding formula; it is an owner interpretation, separate from the article.",
+    "claims": [
+      {
+        "text": "The article describes a removable machine-washable decorative cover over a non-slip pad.",
+        "kind": "reported_claim",
+        "locator": "Original Content / WHAT 产品 / 创新双层结构"
+      },
+      {
+        "text": "The article estimates US$250 million annual retail sales, elsewhere calling it annual revenue; the period and method are unspecified.",
+        "kind": "reported_claim",
+        "locator": "Original Content / 品牌简介"
+      },
+      {
+        "text": "The article reports US$89–900 product prices at an unspecified observation date.",
+        "kind": "reported_claim",
+        "locator": "Original Content / 品牌简介"
+      },
+      {
+        "text": "The article describes creator allowlisting and asserts lower acquisition costs without disclosing a measured change.",
+        "kind": "reported_claim",
+        "locator": "Original Content / WHY 营销 / 达人Allowlisting"
+      },
+      {
+        "text": "The clip owner proposes a maintenance-pain, engineering and lifestyle-branding innovation formula.",
+        "kind": "user_note",
+        "locator": "My Initial Notes"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "wiki/brands/ruggable.md",
+      "content": "# Ruggable\n\n## Source scope\nRead the supplied article body from Double V Consulting, credited to wanyixu and published 5 August 2025. This is a third-party brand analysis, not an audited business report or an independent product test. The saved owner notes are separate from its original content. {{source}} — metadata; My Initial Notes; Original Content.\n\n## Evidence\n- **Reported claim:** a removable machine-washable decorative cover sits on a non-slip pad. {{source}} — Original Content / WHAT 产品 / 创新双层结构.\n- **Reported claim:** estimated annual retail sales are US$250 million; the prose also calls this annual revenue. No financial period or estimation method is provided, so neither the unit nor current performance is independently confirmed. {{source}} — Original Content / 品牌简介.\n- **Reported claim:** listed product prices are US$89–900, without an observation date. This is a reported historical range, not current pricing or evidence of margin. {{source}} — Original Content / 品牌简介.\n- **Reported claim:** creator allowlisting improves acquisition results, but the article gives no CAC, ROAS, test design or attribution window. {{source}} — Original Content / WHY 营销 / 达人Allowlisting.\n- **User note, author unidentified:** the owner proposes combining longstanding maintenance pain, engineering innovation and lifestyle branding. This is a conceptual interpretation, not the publisher's measured causal result. {{source}} — My Initial Notes.\n\n## User job and product mechanism\n**Inference:** a plausible job is to keep a furnished home attractive while reducing the inconvenience and replacement anxiety caused by dirty rugs. The reported removable layer changes the cleaning process, which is a more specific mechanism than merely promising easy care. The article discusses households with pets or children, but this is its audience characterization, not a representative interview sample. {{source}} — Original Content / WHO 用户; WHAT 产品.\n\n**Hypothesis:** functional maintenance relief may support an aesthetic product rather than forcing buyers to choose between appearance and care. Reusable pads and replaceable covers might enable style changes, but the source does not establish repurchase rates or willingness to pay for this mechanism. {{source}} — Original Content / WHAT 产品.\n\n## Differentiation and channels\nThe source describes a product system, aesthetic variants and creator content. **Inference:** visual room scenes can communicate style while cleaning demonstrations could explain the mechanism. The source's causal marketing claims remain unverified; social activity and visits are not orders, revenue or profit. {{source}} — Original Content / WHAT 产品; WHY 营销; 官网流量分析.\n\n## Constraints and unknowns\n- Cleaning performance, washing-machine compatibility, cover reassembly, wear and dissatisfaction require user or test evidence.\n- Supplier feasibility, unit economics, patent scope, delivery costs and return rates are unknown.\n- Target market, product interests and shipping constraints have not been specified by this Brain's owner. No US/EU, Shopify, China-sourcing or lightweight-product preference is inferred from this case.\n- A successful example does not establish scarcity or opportunity in any adjacent category.\n\n## Decision\n**Study.** The article provides a useful product-mechanism hypothesis and historical marketing claims, but not enough evidence to validate a category or launch a business.\n\n## Next action\nCollect a bounded sample of independent owner experiences focused on cleaning, machine fit and reassembly; separate recurring complaints from isolated cases before proposing another product opportunity.\n"
+    }
+  ],
+  "decision": "Study",
+  "summary": "Recorded the supplied article with financial definitions and owner notes kept separate.",
+  "next_action": "Collect independent owner experiences about cleaning, machine fit and reassembly."
+}

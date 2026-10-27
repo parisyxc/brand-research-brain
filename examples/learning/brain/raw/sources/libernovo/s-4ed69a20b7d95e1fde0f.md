@@ -1,0 +1,43 @@
+# LiberNovo About Us：起源叙述与产品演进
+
+Source ID: `s-4ed69a20b7d95e1fde0f`
+
+## Provenance and extracted claims
+
+```json
+{
+  "type": "official_site",
+  "url": "https://libernovo.com/pages/about-us",
+  "title": "LiberNovo About Us：起源叙述与产品演进",
+  "publisher": "LiberNovo",
+  "published_at": null,
+  "observed_at": "2026-10-24",
+  "access": "partial",
+  "limitations": [
+    "创始背景、研发与专利数量为品牌自述，未独立核验。",
+    "评测为官网选择的摘录，未阅读原作或核验赞助、佣金关系，不能作为独立评测结论。",
+    "时间轴文本存在重复日期，不能可靠地把每个2026日期与每一款产品逐一对应；未确认公司成立年份。"
+  ],
+  "claims": [
+    {
+      "text": "品牌将创始人的技术背景与自身久坐问题作为起源故事。",
+      "kind": "official_claim",
+      "locator": "How We Got Started；网页行145–149"
+    },
+    {
+      "text": "页面以时间轴及产品介绍呈现从Omni到多个版本和Maxis的扩展。",
+      "kind": "observed_feature",
+      "locator": "Meet Our Milestones；网页行302–336"
+    },
+    {
+      "text": "页面展示署名评测者的评价摘录。",
+      "kind": "observed_feature",
+      "locator": "Hear From Us；网页行280–299"
+    }
+  ]
+}
+```
+
+## Capture
+
+How We Got Started 将品牌起点描述为创始人 Yanle 在 Narwal 的技术经历及其久坐困扰。Meet Our Milestones 页面序列从2025.06延伸至2026年，列出 Omni、Moss Green、Omni Pro、Omni SE、Maxis。Hear From Us 摘录 @Ahnestly、@BTODtv 和一位医生的评价；未打开原始评价。

@@ -1,0 +1,21 @@
+{
+  "kind": "independent agent skill evaluation",
+  "date": "2026-10-24",
+  "input": "Existing Looki Brain and saved raw only; no expected answer, no network",
+  "actions": {
+    "categories": "create a user-task/tradeoff note",
+    "ideas": "append untested applications to the existing card idea",
+    "shopify": "retain the existing method",
+    "growth": "retain the current deeper research"
+  },
+  "raw_records_unchanged": 29,
+  "old_events_preserved": 5,
+  "unrelated_existing_files_unchanged": 38,
+  "checker_errors": [],
+  "repeat_default_and_revision_unchanged": true,
+  "limits": [
+    "This is not an installed-host UI/discovery test.",
+    "Substantive judgments require reading; mechanical validation alone is insufficient.",
+    "Original private evaluation files are excluded from release."
+  ]
+}

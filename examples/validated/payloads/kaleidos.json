@@ -1,0 +1,56 @@
+{
+  "brand": {
+    "id": "kaleidos",
+    "name": "Kaleidos",
+    "aliases": []
+  },
+  "source": {
+    "type": "clip",
+    "url": "https://mp.weixin.qq.com/s/-C5FWfS2zHqgkAOrO8KuBw",
+    "title": "Kaleidos 原始片段（正文缺失）",
+    "publisher": "PangJing Media（文件元数据标注，未核实）",
+    "published_at": null,
+    "observed_at": "2026-10-24",
+    "access": "partial",
+    "limitations": [
+      "文件重复元数据、标题与空白模板；并无完整文章。",
+      "仅存一句关于产品内容化及创作者解释产品的判断，作者不明。",
+      "标题中的日收百万未见期间、币种、口径或支持正文，不能作为收入事实。",
+      "按要求没有联网补充。"
+    ],
+    "capture": "文件两次出现相同标题和模板区块。Original Content 基本为空，只剩一条关于产品成为内容、创作者承担解释且方法如今普及的判断，另外一次出现在 Why I Saved This 下。句子可能是原文或个人笔记，无法归属。完整经营数据、产品机制与具体渠道案例均缺失。",
+    "claims": []
+  },
+  "pages": [
+    {
+      "path": "wiki/brands/kaleidos.md",
+      "content": "# Kaleidos\n\n## 来源范围\n本次只读取所供片段。文件重复标题和空白模板，未包含完整报道；元数据标注 PangJing Media，发布日期空白，不能据此确认剩余句子的作者。没有访问微信或其他网站。{{source}} — 文件结构与元数据。\n\n## 可用材料与解释\n**作者不明的摘句**提出产品内容化、创作者解释产品以及方法普及的判断。它是待检验线索，不是已确认的品牌增长事实。{{source}} — Why I Saved This / 末尾 Original Content。标题里的“日收百万”缺乏币种、期间、收入定义和正文支持，未提取为事实。\n\n## 用户、产品与未知\n无法确定具体用户任务、产品性能、复购、渠道构成、海外市场、利润或差异化持续性。此 Brain 没有额外配置市场和经营约束；不借用其他项目偏好。不能从一句摘句推出赛道机会。\n\n## 判断\n**Study**：保留待验证的创作者解释机制；材料不足以评价品牌经营或提出独立产品机会。\n\n## 下一步\n请提供完整正文或一则有日期、产品和创作者链接的具体案例，再比较消费者解释任务与购买路径。本次不做网络补充。\n\n关联：[[wiki/growth/creator-product-explanation]]。\n"
+    },
+    {
+      "path": "wiki/growth/creator-product-explanation.md",
+      "content": "# 创作者如何解释产品\n\n## 线索边界\n[[wiki/brands/kaleidos]] 所供片段仅留下一条作者不明的判断，涉及产品内容化和创作者解释产品；原始文章正文缺失，不能确认品牌确实采取过何种执行方式。{{source}} — Why I Saved This / 末尾 Original Content。\n\n## 待检验机制（推断）\n若一种产品需要展示效果或使用方法，创作者可能降低理解成本。但“看懂”“互动”与“购买”是不同结果；一句摘句不能证明增长、持续优势，也不能证明方法已普及。\n\n## 需要什么证据\n先找一则明确产品、创作者、日期的内容，再记录它解释了什么、用户评论仍有哪些疑问、购买入口在哪里。若无法找到解释任务或内容只提供娱乐，应放弃该机制解释。若之后获得数据，对比同一产品有无解释内容时的理解程度，再讨论转化；当前没有开展实验。\n"
+    }
+  ],
+  "dimension_reviews": {
+    "category": {
+      "action": "skip",
+      "reason": "片段没有具体用户任务、产品约束或品类权衡，尚不足以独立成文。",
+      "paths": []
+    },
+    "growth": {
+      "action": "write",
+      "reason": "唯一摘句提供可检查的解释机制线索，但作者与执行证据未知，研究页保留这些边界。",
+      "paths": [
+        "wiki/growth/creator-product-explanation.md"
+      ]
+    },
+    "ideas": {
+      "action": "skip",
+      "reason": "没有产品结构或具体可迁移机会，另建想法页只会重复增长页的待证机制。",
+      "paths": []
+    }
+  },
+  "decision": "Study",
+  "summary": "将缺失正文与作者不明摘句保留为研究边界，只建立创作者解释机制的检查页。",
+  "next_action": "取得完整正文或一则可定位的创作者案例；不联网补写。"
+}

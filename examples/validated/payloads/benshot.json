@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "id": "benshot",
+    "name": "BenShot",
+    "aliases": []
+  },
+  "source": {
+    "type": "official_site",
+    "url": "https://benshot.com/",
+    "title": "BenShot 官方首页",
+    "publisher": "BenShot",
+    "published_at": null,
+    "observed_at": "2026-10-24",
+    "access": "complete",
+    "limitations": [
+      "只读取官网首页可提取文字，没有跟进产品、故事或政策子页，也没有独立测试。",
+      "精选评论与评论总数是站内呈现，不能作为代表性用户样本、销量或复购证明。",
+      "没有测量价格、成本、破损率、市场规模或实际投放表现。"
+    ],
+    "capture": "首页以 Wisconsin 手工制作与父子故事介绍玻璃杯。集合导航按运动、职业或兴趣及送礼对象组织；站内呈现顾客评论、保证和邮件订阅。页脚说明杯子并不防弹或防碎且须手洗。",
+    "claims": [
+      {
+        "text": "品牌自称由父子团队在 Wisconsin 手工制作玻璃杯。",
+        "kind": "official_claim",
+        "locator": "Homepage / Proudly Handmade (lines 19–23)"
+      },
+      {
+        "text": "集合导航包含兴趣主题及送礼对象，另有评论、保证与订阅区。",
+        "kind": "observed_feature",
+        "locator": "Homepage / Shop by Collection; Guarantee; Let customers speak; Subscribe (lines 24–197)"
+      },
+      {
+        "text": "页脚明确产品不防弹、不防碎并要求手洗。",
+        "kind": "official_claim",
+        "locator": "Homepage / Footer disclaimer (line 200)"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "wiki/brands/benshot.md",
+      "content": "# BenShot\n\n## 范围与证据\n2026-10-24 直接读取官网首页文字。品牌自述 Wisconsin 父子手工制作；导航按兴趣和送礼对象分类；页面配置评论、保证与订阅；页脚要求手洗并明确不防弹、防碎。{{source}} — 首页介绍、Shop by Collection、保证/评论、页脚。子页与独立证据未读。\n\n## 分析（推断）\n用户任务可能是用礼物表达“我了解你”，主题导航帮助匹配对象。手工故事和服务承诺可能减轻陌生品牌购买顾虑。需求、转化效果和溢价均未证实，精选评论不能代表真实满意度或复购。\n\n## 未知与判断\n清洗限制、运输破损、耐久与成本需要验证；市场与个人约束未配置，不能推出供应链或市场稀缺性。**Study**：先查送礼选择任务是否真实，再评估主题化设计。\n\n## 下一步\n以对象明确的送礼情境观察选择过程，并询问手洗限制是否改变选择。尚未联系用户或购买。\n\n关联：[[wiki/categories/recipient-specific-gifts]] · [[wiki/growth/identity-navigation-and-trust]] · [[wiki/ideas/recognizable-gift-cues]]。\n"
+    },
+    {
+      "path": "wiki/categories/recipient-specific-gifts.md",
+      "content": "# 按收礼人选择礼物\n\n## 证据边界\n[[wiki/brands/benshot]] 首页用兴趣与送礼对象组织集合；页脚存在手洗限制。{{source}} — Shop by Collection；Footer。这里只能确认品牌的呈现方式。\n\n## 解释与权衡（推断）\n礼物既要传递对人的理解，也须适合日常使用。越鲜明的身份线索可能越易匹配，也可能误判收礼人的喜好；护理负担可能削弱礼物体验。\n\n## 未知与验证问题\n未知谁付款、谁使用、预算和实际场合。用受访者最近一次送礼回忆追问如何筛选、担心什么及护理要求是否被考虑；不要用一句“喜欢吗”替代真实选择比较。相关测试：[[wiki/ideas/recognizable-gift-cues]]。\n"
+    },
+    {
+      "path": "wiki/growth/identity-navigation-and-trust.md",
+      "content": "# 身份导航与购买顾虑\n\n## 观察\n[[wiki/brands/benshot]] 首页有主题集合、品牌故事入口、保证与评论区。{{source}} — Shop by Collection；Our Story；Guarantee；Reviews。\n\n## 机制假设\n导航可能缩小选择范围，故事与承诺可能降低陌生品牌风险；也可能增加犹豫或遮蔽实际护理要求。它们存在不等于有效，评论量不等于成交或复购。\n\n## 检查\n让相同送礼任务分别经主题入口与普通产品列表完成，记录时间、错配原因、护理限制理解和最后选择。控制产品与报价，避免把好看的页面直接归因于增长。当前没有可用流量或转化数据。\n"
+    },
+    {
+      "path": "wiki/ideas/recognizable-gift-cues.md",
+      "content": "# 用可识别线索表达对收礼人的了解\n\n## 证据与假设\n[[wiki/brands/benshot]] 的兴趣主题导航提示一个待测原则：普通使用物品若包含收礼人能认出的线索，可能更容易传递个人关联。{{source}} — 首页 Shop by Collection。首页没有证明此原则带来溢价。\n\n## 成立与失败条件\n线索须被收礼人认同且不损害日常用途；若显得刻板、错误归类、护理费事或很快失去兴趣，假设可能失败。不要直接复制品牌设计。\n\n## 具体测试\n比较同类物品的普通版本、只改变文案的版本与主题设计草图，要求送礼人做真实预算下的取舍，再让收礼人解释识别到的含义。没有识别差异或选择优势时暂停结构投入。品类问题见 [[wiki/categories/recipient-specific-gifts]]。\n"
+    }
+  ],
+  "dimension_reviews": {
+    "category": {
+      "action": "write",
+      "reason": "导航呈现送礼对象选择任务，且护理限制形成可研究的使用权衡。",
+      "paths": [
+        "wiki/categories/recipient-specific-gifts.md"
+      ]
+    },
+    "growth": {
+      "action": "write",
+      "reason": "主题导航与信任模块可直接观察，可提出选择和风险降低机制的检查方法。",
+      "paths": [
+        "wiki/growth/identity-navigation-and-trust.md"
+      ]
+    },
+    "ideas": {
+      "action": "write",
+      "reason": "把兴趣线索转成礼物个人关联是独立且可用草图比较的假设。",
+      "paths": [
+        "wiki/ideas/recognizable-gift-cues.md"
+      ]
+    }
+  },
+  "decision": "Study",
+  "summary": "首页支持送礼选择与信任机制假设，保留手洗和独立验证缺口。",
+  "next_action": "观察具体送礼任务与护理限制对选择的影响。"
+}

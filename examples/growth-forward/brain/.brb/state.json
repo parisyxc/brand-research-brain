@@ -1,0 +1,328 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "useit": {
+      "name": "UseIt",
+      "aliases": [
+        "USEIT PTE. LTD.",
+        "UseIt AI",
+        "UseIt Studio"
+      ],
+      "page": "wiki/brands/useit.md",
+      "pages": [
+        "wiki/brands/useit.md",
+        "wiki/categories/personalized-physical-goods.md",
+        "wiki/growth/reusable-examples-to-personalization.md",
+        "wiki/growth/useit-growth.md",
+        "wiki/ideas/occasion-card-product-outline.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-b36cedd4c78cf260b3ff": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-b36cedd4c78cf260b3ff.md",
+      "identity": "https://useit.im/",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/",
+        "title": "UseIt 官网｜场景、制作流程与 Gallery",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "读取公开页面文字，未测试交互演示、生成能力或实物成品；未登录 Studio。"
+        ],
+        "capture": "中文摘记（非全文快照）：首页将用途分为 DIY、品牌配套设计、送给特定对象三类；以局部编辑和同风格套组展示修改过程；生产环节展示 3D 预览、切割线与白墨层；Gallery 介绍以他人作品替换文字、照片的复用方式。主要入口指向 studio.useit.im。",
+        "claims": [
+          {
+            "text": "用途分为 DIY、品牌配套设计和个人赠礼。",
+            "kind": "observed_feature",
+            "locator": "首页 / What you can make"
+          },
+          {
+            "text": "页面演示局部编辑、同风格套组，以及生产前的预览和文件准备。",
+            "kind": "observed_feature",
+            "locator": "首页 / Change a detail 与 Ready for production"
+          },
+          {
+            "text": "官网称 Gallery 作品可以供他人制作自己的版本。",
+            "kind": "official_claim",
+            "locator": "首页 / Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "5f23ad9ef0a11ab87f6127303b00a636851704596f981aeb2743072bb2a07df6"
+    },
+    "s-69b47df56cdc19ff86f4": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-69b47df56cdc19ff86f4.md",
+      "identity": "https://useit.im/terms-of-service",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/terms-of-service",
+        "title": "UseIt 使用条款｜收费、实物订单与模板用途",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "仅为平台条款陈述，未完成付费或下单；具体价格、配送地区与订单条件未核验；不是经营数据。"
+        ],
+        "capture": "中文摘记：第 6 节称按设计定制实物，由平台及生产伙伴制作，付款后开始生产，价格和运输信息在付款前展示。第 7 节描述付费订阅、实物订单和积分用途，积分可随方案或额度发放；本次未见具体价目。第 4 节允许 Gallery 模板免费或按积分复用，目前不向创作者支付收入；默认复用范围是个人用途，除非作品页另有说明。",
+        "claims": [
+          {
+            "text": "条款描述软件订阅和实物订单收费，积分用于生成及付费模板复用。",
+            "kind": "official_claim",
+            "locator": "Terms / §7 Fees, credits and subscriptions"
+          },
+          {
+            "text": "定制实物订单由 UseIt 与生产伙伴制作，付款后开始生产。",
+            "kind": "official_claim",
+            "locator": "Terms / §6 Physical product orders"
+          },
+          {
+            "text": "Gallery 模板可设置积分费用，目前不向创作者付款；默认复用范围为个人用途，作品页可另行说明。",
+            "kind": "official_claim",
+            "locator": "Terms / §4 The Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "526dad9f7bbcafb6f052c77255678273dc955a40cea0d11dd110550d45b05ed4"
+    },
+    "s-ce976945b41a86d8bb06": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-ce976945b41a86d8bb06.md",
+      "identity": "https://useit.im/privacy-policy",
+      "source": {
+        "type": "official_site",
+        "url": "https://useit.im/privacy-policy",
+        "title": "UseIt 隐私说明｜订单链路与公开内容",
+        "publisher": "UseIt / USEIT PTE. LTD.",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "平台自述，未审计实际数据处理、合作伙伴或履约过程。"
+        ],
+        "capture": "中文摘记：第 2、5 节说明订单相关信息分别交给生产伙伴、承运商和支付处理方，支付方为 Stripe。第 6 节区分 Gallery 的公开设计资料、公开互动与保持私密的项目聊天。第 1 节列明服务提供者为 USEIT PTE. LTD.。",
+        "claims": [
+          {
+            "text": "隐私说明将生产伙伴、承运商和 Stripe 列入订单及支付处理链路。",
+            "kind": "official_claim",
+            "locator": "Privacy / §2 Information we collect；§5 How we share information"
+          },
+          {
+            "text": "Gallery 发布资料和互动公开，项目聊天保持私密。",
+            "kind": "official_claim",
+            "locator": "Privacy / §6 Public content in the Gallery"
+          }
+        ]
+      },
+      "capture_sha256": "d290edcb46a475190a75f5d552190d1e68951ff8fd6716160341bcf92933a0f1"
+    },
+    "s-a7c09efaf6a74e8749b9": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-a7c09efaf6a74e8749b9.md",
+      "identity": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+      "source": {
+        "type": "article",
+        "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+        "title": "Product Hunt｜UseIt 发布与创始人答疑",
+        "publisher": "Product Hunt / Lindia Chen",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "页面相对日期在不同片段不一致，未把它换算成绝对发帖日期；未据此推断销量、转化或付费合作。没有观看图片所链接的视频。"
+        ],
+        "capture": "页面明确链接 useit.im。Lindia Chen 在 Maker 置顶帖自述为联合创始人，讲述将想法变为实物的动机，感谢 Zac Zuo hunting，并提供加入活动的积分代码。她回应可制造性及价格展示问题。Sumedh Bengale 留言自述已注册尝试，同时提出首页缺少付费方案信息。",
+        "claims": [
+          {
+            "text": "发布页链接 useit.im。",
+            "kind": "observed_feature",
+            "locator": "Product / Visit website"
+          },
+          {
+            "text": "Maker Lindia Chen 自述联合创始人，感谢 Zac Zuo hunting，并提供加入活动的积分代码。",
+            "kind": "official_claim",
+            "locator": "Pinned Maker comment"
+          },
+          {
+            "text": "Maker 回复可制造性问题；一名评论者自述使用并提出首页定价展示不足。",
+            "kind": "reported_claim",
+            "locator": "Comments / Shivam Kushwaha; Sumedh Bengale"
+          }
+        ]
+      },
+      "capture_sha256": "f216197728cac4aa8fbebdc0ff02d908c68ff06c45ed3c8f0351d59a1426aa3a"
+    },
+    "s-dc3e4612183ca56b1de5": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-dc3e4612183ca56b1de5.md",
+      "identity": "https://jilbab.twstalker.com/useit_ai",
+      "source": {
+        "type": "article",
+        "url": "https://jilbab.twstalker.com/useit_ai",
+        "title": "TwStalker｜候选账号 @useit_ai 镜像",
+        "publisher": "TwStalker mirror",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "X 原页 403；没有官网回链或另一第一方身份信号，保留候选账号标签。镜像相对时间可能滞后，不能证明官方当前频率；未查看媒体，不描述视频内容；不采用镜像互动指标。"
+        ],
+        "capture": "镜像显示候选账号 UseIt AI @useit_ai；标为 3、5、7 天前的文本依次围绕局部修改、从想法到制作、生日礼物/婚礼文具等场景。一周前文本称 brand new version；更早约 6–8 个月内容讲 GUI agent、PowerPoint 与演示复用。旧文含标为 useit.im 的链接。",
+        "claims": [
+          {
+            "text": "镜像近期文本强调局部修改、制作与赠礼场景；一周前文本称全新版本。",
+            "kind": "reported_claim",
+            "locator": "Posts labeled 3 days ago / 5 days ago / 7 days ago / a week ago"
+          },
+          {
+            "text": "镜像更早内容描述 GUI agent 和 PowerPoint，且出现标为 useit.im 的链接。",
+            "kind": "reported_claim",
+            "locator": "Posts labeled 6 months ago / 8 months ago"
+          }
+        ]
+      },
+      "capture_sha256": "2c2381301621e26d3ca9f71ca616c0559f6c876864e56ba8131e6eb5393dd2d8"
+    },
+    "s-5847abc5f31d4ecae34e": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-5847abc5f31d4ecae34e.md",
+      "identity": "https://aicrier.com/post/4qg2p9aoe5o4yu4cqrz7",
+      "source": {
+        "type": "article",
+        "url": "https://aicrier.com/post/4qg2p9aoe5o4yu4cqrz7",
+        "title": "AICrier｜UseIt 发布摘要与外链",
+        "publisher": "AICrier",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "这是聚合摘要，不是已验证独立试用；作者字段不能证明独立作者身份、品牌供稿或付费关系。"
+        ],
+        "capture": "页面以 PRODUCT LAUNCH 呈现 UseIt，带直接通往 useit.im 和 Product Hunt 的链接；自述监测多个公开 feed、提供短摘要。作者字段为 Lindia Chen，发布日期字段为 2026-10-21。",
+        "claims": [
+          {
+            "text": "UseIt 发布摘要同时链接官网与 Product Hunt。",
+            "kind": "observed_feature",
+            "locator": "Announcement / Product / Product Hunt links"
+          },
+          {
+            "text": "页面自述是公开 feed 跟踪与摘要服务。",
+            "kind": "observed_feature",
+            "locator": "What AICrier does"
+          }
+        ]
+      },
+      "capture_sha256": "b8b1a09e35e251d9694ddcfd4b5bd030e54d0bf53afa98ab97c6141b4afb1df6"
+    },
+    "s-46a4658e82aa7272fcd5": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-46a4658e82aa7272fcd5.md",
+      "identity": "https://superpowerdaily.com/tools/useit-studio",
+      "source": {
+        "type": "article",
+        "url": "https://superpowerdaily.com/tools/useit-studio",
+        "title": "Superpower Daily｜UseIt 产品收录",
+        "publisher": "Superpower Daily",
+        "published_at": "2026-10-21",
+        "observed_at": "2026-10-24",
+        "access": "partial",
+        "limitations": [
+          "证明公开收录和外链，不证明品牌主动投放、newsletter 实际发送或带来的访问量。"
+        ],
+        "capture": "工具页以 editable、print-ready、real dimensions、bleed、dielines 描述 UseIt，列出 gift-box、sticker、pop-up card 等用途；Open product 链接 useit.im。First selected 为 2026-10-21。",
+        "claims": [
+          {
+            "text": "工具收录页链接 useit.im，并以可编辑及生产文件术语解释产品。",
+            "kind": "observed_feature",
+            "locator": "Product dossier / Open product / What UseIt Studio does"
+          },
+          {
+            "text": "页面标明 First selected 为 2026-10-21。",
+            "kind": "observed_feature",
+            "locator": "First selected"
+          }
+        ]
+      },
+      "capture_sha256": "5456928d7417a7508720beb905ac861dfda926aac9da399472b3a54226cc83a2"
+    },
+    "s-57f1e02e7ff0c06af3a4": {
+      "brand": "useit",
+      "path": "raw/sources/useit/s-57f1e02e7ff0c06af3a4.md",
+      "identity": "research/useit-growth-public-2026-10-24",
+      "source": {
+        "type": "note",
+        "local_ref": "research/useit-growth-public-2026-10-24",
+        "title": "研究记录｜查询、访问与缺口",
+        "publisher": "Independent growth forward evaluation",
+        "published_at": null,
+        "observed_at": "2026-10-24",
+        "access": "complete",
+        "limitations": [
+          "记录本次有限研究，不是外部独立证据。"
+        ],
+        "capture": "实际使用 host web search/open/click，未连接额外 API。观察日期 2026-10-24。检索是有限抽样，不是排名测量。\n搜索词：[\"\\\"useit.im\\\" social twitter instagram\", \"\\\"useit.im\\\" review creator\", \"site:useit.im -privacy -terms\", \"\\\"useit.im\\\" site:x.com\", \"\\\"UseIt Studio\\\" YouTube Instagram TikTok\", \"\\\"AI design\\\" \\\"print ready\\\" \\\"gift box\\\" useit\", \"\\\"useit.im\\\" \\\"instagram\\\"\", \"\\\"useit.im\\\" \\\"youtube\\\"\", \"\\\"AI dieline generator\\\"\"]\n直接阅读：https://useit.im/；https://www.producthunt.com/products/useit-studio-from-idea-to-delivery；https://www.producthunt.com/@lindiac；https://www.producthunt.com/@zaczuo；https://aicrier.com/post/4qg2p9aoe5o4yu4cqrz7；https://jilbab.twstalker.com/useit_ai；https://superpowerdaily.com/tools/useit-studio。\n检索返回的站内页面主要为首页与条款，首页导航为同页用途/功能/Gallery，创建入口通向 studio 子域；未确认独立索引的指南/模板页。\n失败：https://x.com/useit_ai 403，仅尝试 TwStalker 这一条替代路线；https://agentscouthq.com/tools/useit-studio.html Cache miss（仅搜索摘要，不作正文证据）；https://useit.im/robots.txt 与 https://useit.im/sitemap.xml 工具不可访问。\n非品牌词 AI dieline generator 返回多个其他产品；不能据此声称 UseIt 不排名。未确认 Instagram、YouTube 账号及独立视频测评，未登录注册，未观看视频。搜索排序与摘要不作流量、合作或不存在的证明。",
+        "claims": []
+      },
+      "capture_sha256": "962e56c183c1259e7ebd3bfae81d66fa75705b63273c7c76f43bf3d822a99b7d"
+    }
+  },
+  "events": [
+    {
+      "id": "e-23d38849a6d8f496454d",
+      "source_id": "s-69b47df56cdc19ff86f4",
+      "source_ids": [
+        "s-69b47df56cdc19ff86f4",
+        "s-b36cedd4c78cf260b3ff",
+        "s-ce976945b41a86d8bb06"
+      ],
+      "date": "2026-10-24",
+      "type": "learning",
+      "pages": {
+        "wiki/brands/useit.md": "b2518a94a1a2a41164fad23f84194b2d6c3bf1a64c4da6fc213e7492fe46a405",
+        "wiki/categories/personalized-physical-goods.md": "9ccd06b3be44ffc6e7125a3f2a1d0fe8a7aa718339dff625a1d045cce894c09f",
+        "wiki/growth/reusable-examples-to-personalization.md": "74f407e6b298969c57081eede1b2f8ee64fe61755afa9b56b51311adcc1ab2df",
+        "wiki/ideas/occasion-card-product-outline.md": "320dffc345da3186871a5d02f5244cd09244837e0be43a0448bfbffb5ff3213a"
+      }
+    },
+    {
+      "id": "e-c13170b191d18f33dd6a",
+      "source_id": "s-46a4658e82aa7272fcd5",
+      "source_ids": [
+        "s-46a4658e82aa7272fcd5",
+        "s-57f1e02e7ff0c06af3a4",
+        "s-5847abc5f31d4ecae34e",
+        "s-a7c09efaf6a74e8749b9",
+        "s-b36cedd4c78cf260b3ff",
+        "s-dc3e4612183ca56b1de5"
+      ],
+      "date": "2026-10-24",
+      "type": "growth",
+      "pages": {
+        "wiki/growth/useit-growth.md": "9f0829526bdd1b9c8da3f72e5e30691daa078b9cbd1cc32e4900babed024147c"
+      }
+    },
+    {
+      "id": "e-541bd300b8833d552516",
+      "source_id": "s-46a4658e82aa7272fcd5",
+      "source_ids": [
+        "s-46a4658e82aa7272fcd5",
+        "s-57f1e02e7ff0c06af3a4",
+        "s-5847abc5f31d4ecae34e",
+        "s-a7c09efaf6a74e8749b9",
+        "s-b36cedd4c78cf260b3ff",
+        "s-dc3e4612183ca56b1de5"
+      ],
+      "date": "2026-10-24",
+      "type": "growth_revision",
+      "pages": {
+        "wiki/growth/useit-growth.md": "bc68881916701183b40e6483e417e033064f6d34d10043b92e76e4404ef6e612"
+      }
+    }
+  ]
+}

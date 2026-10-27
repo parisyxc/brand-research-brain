@@ -1,0 +1,75 @@
+{
+  "schema": "brand-research-brain/v1",
+  "brands": {
+    "ruggable": {
+      "name": "Ruggable",
+      "aliases": [],
+      "page": "wiki/brands/ruggable.md",
+      "pages": [
+        "wiki/brands/ruggable.md"
+      ]
+    }
+  },
+  "sources": {
+    "s-0ca02a375afad68e0a01": {
+      "brand": "ruggable",
+      "path": "raw/sources/ruggable/s-0ca02a375afad68e0a01.md",
+      "identity": "https://www.doublevconsulting.com/post/dtc%E5%93%81%E7%89%8C%E6%8B%86%E8%A7%A3-%E4%B8%93%E6%B3%A8%E7%BB%86%E5%88%86%E7%B1%BB%E7%9B%AE%E7%9A%84%E5%8F%AF%E6%9C%BA%E6%B4%97%E5%9C%B0%E6%AF%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%B9%B4%E9%94%802-5%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%9F",
+      "source": {
+        "type": "article",
+        "url": "https://www.doublevconsulting.com/post/dtc%E5%93%81%E7%89%8C%E6%8B%86%E8%A7%A3-%E4%B8%93%E6%B3%A8%E7%BB%86%E5%88%86%E7%B1%BB%E7%9B%AE%E7%9A%84%E5%8F%AF%E6%9C%BA%E6%B4%97%E5%9C%B0%E6%AF%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%B9%B4%E9%94%802-5%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%9F",
+        "title": "DTC品牌拆解：可机洗地毯 Ruggable",
+        "publisher": "Double V Consulting; by wanyixu",
+        "published_at": "2025-08-05T05:10:48.534Z",
+        "observed_at": "2026-10-23",
+        "access": "complete",
+        "limitations": [
+          "Read the supplied Markdown article body only; linked images and external links were not independently inspected.",
+          "Article estimates do not include a measurement period or methodology for retail sales, traffic, or audience shares.",
+          "The owner interpretation appears under My Initial Notes; authorship is not identified in the supplied file."
+        ],
+        "capture": "Supplied Double V Consulting article (author wanyixu, 2025-08-05). Brand introduction reports an estimated US$250 million annual retail sales/revenue, 73% female consumers and US$89–900 prices; its inconsistent sales labels and absent period/methodology prevent financial verification. Product section describes a removable washable decorative cover over a non-slip pad, plus design collaborations and room/size variants. Marketing section describes lifestyle/UGC content and creator allowlisting, asserting better acquisition results without quantitative support. Traffic section lists 4.56 million monthly visits with no observation date or provider. My Initial Notes proposes a maintenance-pain + engineering + lifestyle-branding formula; it is an owner interpretation, separate from the article.",
+        "claims": [
+          {
+            "text": "The article describes a removable machine-washable decorative cover over a non-slip pad.",
+            "kind": "reported_claim",
+            "locator": "Original Content / WHAT 产品 / 创新双层结构"
+          },
+          {
+            "text": "The article estimates US$250 million annual retail sales, elsewhere calling it annual revenue; the period and method are unspecified.",
+            "kind": "reported_claim",
+            "locator": "Original Content / 品牌简介"
+          },
+          {
+            "text": "The article reports US$89–900 product prices at an unspecified observation date.",
+            "kind": "reported_claim",
+            "locator": "Original Content / 品牌简介"
+          },
+          {
+            "text": "The article describes creator allowlisting and asserts lower acquisition costs without disclosing a measured change.",
+            "kind": "reported_claim",
+            "locator": "Original Content / WHY 营销 / 达人Allowlisting"
+          },
+          {
+            "text": "The clip owner proposes a maintenance-pain, engineering and lifestyle-branding innovation formula.",
+            "kind": "user_note",
+            "locator": "My Initial Notes"
+          }
+        ]
+      },
+      "capture_sha256": "10b6355e0e4d9ddd810d690e59b12ac9c4270762ab2e36b5d6ed5c10b6e022b3"
+    }
+  },
+  "events": [
+    {
+      "id": "e-2e73267204bec32139ee",
+      "source_id": "s-0ca02a375afad68e0a01",
+      "date": "2026-10-23",
+      "type": "intake",
+      "decision": "Study",
+      "pages": {
+        "wiki/brands/ruggable.md": "cce2ea8c18ceb605e6e42615dd470dd1e0ed55de6d47da89c56a843bf0b5a003"
+      }
+    }
+  ]
+}
